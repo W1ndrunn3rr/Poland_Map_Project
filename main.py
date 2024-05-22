@@ -1,12 +1,12 @@
 from math import inf
-from source.infrastructure import Connection
-from source.infrastructure import City
+from source.graph import Graph
+import json
 
 if __name__ == "__main__":
 
-    city = City("A", "A", 21.37, 22.34)
-    print(city.name)
+    with open("data/lubelskie.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
 
-    connection = Connection("A", "A", "W", "W", 90)
+        graph = Graph(data)
 
-    print(connection.calculate_time())
+        graph.print_graph()
