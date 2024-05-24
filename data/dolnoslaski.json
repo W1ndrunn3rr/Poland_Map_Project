@@ -1,0 +1,1282 @@
+{
+    "cities" : [ {
+        "name" : "Jelenia Góra",
+        "id" : "JeleniaGora",
+        "latitude" : 50.903889,
+        "longitude" : 15.736389
+    }, {
+        "name" : "Legnica",
+        "id" : "Legnica",
+        "latitude" : 51.205278,
+        "longitude" : 16.156389
+    }, {
+        "name" : "Wałbrzych",
+        "id" : "Walbrzych",
+        "latitude" : 50.770833,
+        "longitude" : 16.273889
+    }, {
+        "name" : "Wrocław",
+        "id" : "Wroclaw",
+        "latitude" : 51.11,
+        "longitude" : 17.022222
+    }, {
+        "name" : "Bolesławiec",
+        "id" : "Boleslawiec",
+        "latitude" : 51.263889,
+        "longitude" : 15.560833
+    }, {
+        "name" : "Dzierżoniów",
+        "id" : "Dzierzoniow",
+        "latitude" : 50.728056,
+        "longitude" : 16.651111
+    }, {
+        "name" : "Góra",
+        "id" : "Gora",
+        "latitude" : 51.668056,
+        "longitude" : 16.539444
+    }, {
+        "name" : "Głogów",
+        "id" : "Glogow",
+        "latitude" : 51.659167,
+        "longitude" : 16.080556
+    }, {
+        "name" : "Jawor",
+        "id" : "Jawor",
+        "latitude" : 51.048611,
+        "longitude" : 16.196944
+    }, {
+        "name" : "Kamienna Góra",
+        "id" : "KamiennaGora",
+        "latitude" : 50.784167,
+        "longitude" : 16.035556
+    }, {
+        "name" : "Kłodzko",
+        "id" : "Klodzko",
+        "latitude" : 50.437778,
+        "longitude" : 16.652778
+    }, {
+        "name" : "Lubań",
+        "id" : "Luban",
+        "latitude" : 51.118056,
+        "longitude" : 15.289167
+    }, {
+        "name" : "Lubin",
+        "id" : "Lubin",
+        "latitude" : 51.3975,
+        "longitude" : 16.209444
+    }, {
+        "name" : "Lwówek śląski",
+        "id" : "LwowekSlaski",
+        "latitude" : 51.110278,
+        "longitude" : 15.584722
+    }, {
+        "name" : "Milicz",
+        "id" : "Milicz",
+        "latitude" : 51.5275,
+        "longitude" : 17.271389
+    }, {
+        "name" : "Oleśnica",
+        "id" : "Olesnica",
+        "latitude" : 51.212778,
+        "longitude" : 17.383056
+    }, {
+        "name" : "Oława",
+        "id" : "Olawa",
+        "latitude" : 50.943889,
+        "longitude" : 17.2925
+    }, {
+        "name" : "Polkowice",
+        "id" : "Polkowice",
+        "latitude" : 51.501111,
+        "longitude" : 16.0675
+    }, {
+        "name" : "Środa Śląska",
+        "id" : "SrodaSlaska",
+        "latitude" : 51.163889,
+        "longitude" : 16.595
+    }, {
+        "name" : "Strzelin",
+        "id" : "Strzelin",
+        "latitude" : 50.780833,
+        "longitude" : 17.064722
+    }, {
+        "name" : "Świdnica",
+        "id" : "Swidnica",
+        "latitude" : 50.844444,
+        "longitude" : 16.491667
+    }, {
+        "name" : "Trzebnica",
+        "id" : "Trzebnica",
+        "latitude" : 51.305,
+        "longitude" : 17.061389
+    }, {
+        "name" : "Wołów",
+        "id" : "Wolow",
+        "latitude" : 51.336667,
+        "longitude" : 16.644444
+    }, {
+        "name" : "Ząbkowice śląskie",
+        "id" : "Zabkowiceslaskie",
+        "latitude" : 50.591408,
+        "longitude" : 16.812742
+    }, {
+        "name" : "Zgorzelec",
+        "id" : "Zgorzelec",
+        "latitude" : 51.150278,
+        "longitude" : 15.008611
+    }, {
+        "name" : "Złotoryja",
+        "id" : "Zlotoryja",
+        "latitude" : 51.123889,
+        "longitude" : 15.919444
+    }, {
+        "name" : "Bogatynia",
+        "id" : "Bogatynia",
+        "latitude" : 50.9075,
+        "longitude" : 14.953889
+    }, {
+        "name" : "Szklarska Poręba",
+        "id" : "SzklarskaPoreba",
+        "latitude" : 50.826667,
+        "longitude" : 15.521111
+    }, { 
+        "name" : "Karpacz",
+        "id" : "Karpacz",
+        "latitude" : 50.778333,
+        "longitude" : 15.757222
+    }, { 
+        "name" : "Bolków",
+        "id" : "Bolkow",
+        "latitude" : 50.921944,
+        "longitude" : 16.101944
+    }, { 
+        "name" : "Świebodzice",
+        "id" : "Swiebodzice",
+        "latitude" : 50.859444,
+        "longitude" : 16.318056
+    }, { 
+        "name" : "Bielawa",
+        "id" : "Bielawa",
+        "latitude" : 50.683056,
+        "longitude" : 16.611111
+    }, {
+        "name" : "Polanica-Zdrój",
+        "id" : "PolanicaZdroj",
+        "latitude" : 50.405833,
+        "longitude" : 16.511389
+    }, { 
+        "name" : "Duszniki-Zdrój",
+        "id" : "DusznikiZdroj",
+        "latitude" : 50.404167,
+        "longitude" : 16.390556
+    }, { 
+        "name" : "Kudowa-Zdrój",
+        "id" : "KudowaZdroj",
+        "latitude" : 50.438333,
+        "longitude" : 16.239444
+    }, { 
+        "name" : "Sobótka",
+        "id" : "Sobotka",
+        "latitude" : 50.898611,
+        "longitude" : 16.744444
+    }, { 
+        "name" : "Kąty Wrocławskie",
+        "id" : "KatyWroclawskie",
+        "latitude" : 51.030833,
+        "longitude" : 16.7675
+    }, { 
+        "name" : "Bielany Wrocławskie",
+        "id" : "BielanyWroclawskie",
+        "latitude" : 51.039444,
+        "longitude" : 16.968889
+    }, { 
+        "name" : "Jelcz-Laskowice",
+        "id" : "JelczLaskowice",
+        "latitude" : 51.035278,
+        "longitude" : 17.341111
+    }, { 
+        "name" : "Bierutów",
+        "id" : "Bierutow",
+        "latitude" : 51.123611,
+        "longitude" : 17.5425
+    }, { 
+        "name" : "Syców",
+        "id" : "Sycow",
+        "latitude" : 51.31,
+        "longitude" : 17.723611
+    }, { 
+        "name" : "Oborniki Śląskie",
+        "id" : "ObornikiSlaskie",
+        "latitude" : 51.298611,
+        "longitude" : 16.901667
+    }, { 
+        "name" : "Brzeg Dolny",
+        "id" : "BrzegDolny",
+        "latitude" : 51.270833,
+        "longitude" : 16.720833
+    }, {
+        "name" : "Nowogrodziec",
+        "id" : "Nowogrodziec",
+        "latitude" : 51.201111,
+        "longitude" : 15.385556
+    }, { 
+        "name" : "Gryfów Śląski",
+        "id" : "GryfowSlaski",
+        "latitude" : 51.027222,
+        "longitude" : 15.419167
+    }
+    ],
+
+    "connections" : [ {
+        "city_1": "Wroclaw",
+        "city_2": "Legnica",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 76.1
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Opole",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 96.8
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "SrodaSlaska",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 33
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Wolow",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 45.3
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Trzebnica",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 27.2
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Olesnica",
+        "road_name": "A8",
+        "road_type": "A",
+        "distance": 39.9
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Olawa",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 27.7
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Strzelin",
+        "road_name": "DW395",
+        "road_type": "K",
+        "distance": 39.1
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Zabkowiceslaskie",
+        "road_name": "DK8",
+        "road_type": "S",
+        "distance": 68.3
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Dzierzoniow",
+        "road_name": "DK8",
+        "road_type": "S",
+        "distance": 58.8
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 54
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "JeleniaGora",
+        "road_name": "DK5",
+        "road_type": "S",
+        "distance": 112
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "KamiennaGora",
+        "road_name": "DK5",
+        "road_type": "S",
+        "distance": 96.2
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Zary",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 174
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Luban",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 157
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Boleslawiec",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 123
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Zlotoryja",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 89.7
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Lubin",
+        "road_name": "Dk94",
+        "road_type": "K",
+        "distance": 72.7
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "Sobotka",
+        "road_name": "A8",
+        "road_type": "A",
+        "distance": 40.5
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "KatyWroclawskie",
+        "road_name": "DW362",
+        "road_type": "P",
+        "distance": 27.5
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "BielanyWroclawskie",
+        "road_name": "DK5",
+        "road_type": "K",
+        "distance": 9.8
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "JelczLaskowice",
+        "road_name": "DW455",
+        "road_type": "P",
+        "distance": 28.9
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "ObornikiSlaskie",
+        "road_name": "DW342",
+        "road_type": "P",
+        "distance": 28.5
+    }, {
+        "city_1": "Wroclaw",
+        "city_2": "BrzegDolny",
+        "road_name": "DW341",
+        "road_type": "P",
+        "distance": 40.3
+    }, {
+        "city_1": "Walbrzych",
+        "city_2": "KamiennaGora",
+        "road_name": "DW367",
+        "road_type": "P",
+        "distance": 23.9
+    }, {
+        "city_1": "Walbrzych",
+        "city_2": "Jawor",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 44.1
+    }, {
+        "city_1": "Walbrzych",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 20.9
+    }, {
+        "city_1": "Walbrzych",
+        "city_2": "Dzierzoniow",
+        "road_name": "DW379",
+        "road_type": "P",
+        "distance": 36.6
+    }, {
+        "city_1": "Walbrzych",
+        "city_2": "Zabkowiceslaskie",
+        "road_name": "DW379",
+        "road_type": "P",
+        "distance": 56.3
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Boleslawiec",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 56.1
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Zlotoryja",
+        "road_name": "DW364",
+        "road_type": "P",
+        "distance": 19.3
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Jawor",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 25.8
+    }, {
+        "city_1": "Legnica",
+        "city_2": "SrodaSlaska",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 39.1
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Wolow",
+        "road_name": "DW338",
+        "road_type": "P",
+        "distance": 49.3
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Lubin",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 25.1
+    }, {
+        "city_1": "Legnica",
+        "city_2": "Zielona Gora",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 105
+    }, {
+        "city_1": "Lubin",
+        "city_2": "Polkowice",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 16.8
+    }, {
+        "city_1": "Lubin",
+        "city_2": "Wolow",
+        "road_name": "DK36",
+        "road_type": "K",
+        "distance": 36.8
+    }, {
+        "city_1": "Lubin",
+        "city_2": "Gora",
+        "road_name": "DW323",
+        "road_type": "P",
+        "distance": 44.2
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "Luban",
+        "road_name": "DK30",
+        "road_type": "K",
+        "distance": 44.1
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "LwowekSlaski",
+        "road_name": "DW297",
+        "road_type": "P",
+        "distance": 35.2
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "Zlotoryja",
+        "road_name": "DW365",
+        "road_type": "P",
+        "distance": 36
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "Jawor",
+        "road_name": "DK3",
+        "road_type": "S",
+        "distance": 44.4
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "KamiennaGora",
+        "road_name": "DK3",
+        "road_type": "S",
+        "distance": 35.8
+    }, { 
+        "city_1": "Klodzko",
+        "city_2": "Zabkowiceslaskie",
+        "road_name": "DK8",
+        "road_type": "S",
+        "distance": 22.9
+    }, { 
+        "city_1": "Klodzko",
+        "city_2": "Dzierzoniow",
+        "road_name": "DW384",
+        "road_type": "P",
+        "distance": 42.7
+    }, { 
+        "city_1": "Klodzko",
+        "city_2": "Walbrzych",
+        "road_name": "DW381",
+        "road_type": "P",
+        "distance": 56.8
+    }, {
+        "city_1": "Swidnica",
+        "city_2": "Klodzko",
+        "road_name": "DW384",
+        "road_type": "P",
+        "distance": 61.9
+    }, {
+        "city_1": "Swidnica",
+        "city_2": "SrodaSlaska",
+        "road_name": "DK5",
+        "road_type": "S",
+        "distance": 46.5
+    }, {
+        "city_1": "Swidnica",
+        "city_2": "Jawor",
+        "road_name": "DW382",
+        "road_type": "P",
+        "distance": 33.4
+    }, {
+        "city_1": "Olesnica",
+        "city_2": "Olawa",
+        "road_name": "DW455",
+        "road_type": "P",
+        "distance": 37.1
+    }, {
+        "city_1": "Olesnica",
+        "city_2": "Milicz",
+        "road_name": "DW340",
+        "road_type": "P",
+        "distance": 40.8
+    }, {
+        "city_1": "Olesnica",
+        "city_2": "Trzebnica",
+        "road_name": "A8",
+        "road_type": "A",
+        "distance": 31
+    }, {
+        "city_1": "Olesnica",
+        "city_2": "Kepno",
+        "road_name": "A8",
+        "road_type": "A",
+        "distance": 48.7
+    }, {
+        "city_1": "Olesnica",
+        "city_2": "OstrowWielkopolski",
+        "road_name": "DK25",
+        "road_type": "K",
+        "distance": 72.4
+    }, {
+        "city_1": "Dzierzoniow",
+        "city_2": "Swidnica",
+        "road_name": "DW382",
+        "road_type": "P",
+        "distance": 19.6
+    }, {
+        "city_1": "Dzierzoniow",
+        "city_2": "Zabkowiceslaskie",
+        "road_name": "DW382",
+        "road_type": "P",
+        "distance": 22.4
+    }, {
+        "city_1": "Dzierzoniow",
+        "city_2": "Strzelin",
+        "road_name": "DK39",
+        "road_type": "K",
+        "distance": 33.4
+    }, {
+        "city_1": "Zgorzelec",
+        "city_2": "Zagan",
+        "road_name": "DW351",
+        "road_type": "P",
+        "distance": 63.2
+    }, {
+        "city_1": "Zgorzelec",
+        "city_2": "Boleslawiec",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 52.3
+    }, {
+        "city_1": "Zgorzelec",
+        "city_2": "Luban",
+        "road_name": "DK30",
+        "road_type": "K",
+        "distance": 23
+    }, {
+        "city_1": "Boleslawiec",
+        "city_2": "Zagan",
+        "road_name": "A18",
+        "road_type": "A",
+        "distance": 63.3
+    }, {
+        "city_1": "Boleslawiec",
+        "city_2": "Nowa Sol",
+        "road_name": "DW297",
+        "road_type": "P",
+        "distance": 71.8
+    }, {
+        "city_1": "Boleslawiec",
+        "city_2": "Zary",
+        "road_name": "A18",
+        "road_type": "A",
+        "distance": 73.7
+    }, {
+        "city_1": "Boleslawiec",
+        "city_2": "Polkowice",
+        "road_name": "DW331",
+        "road_type": "P",
+        "distance": 52.9
+    }, {
+        "city_1": "Glogow",
+        "city_2": "Zagan",
+        "road_name": "DW292",
+        "road_type": "P",
+        "distance": 64.4
+    }, {
+        "city_1": "Glogow",
+        "city_2": "Nowa Sol",
+        "road_name": "DW292",
+        "road_type": "P",
+        "distance": 35.4
+    }, {
+        "city_1": "Glogow",
+        "city_2": "Wschowa",
+        "road_name": "DK12",
+        "road_type": "K",
+        "distance": 26.3
+    }, {
+        "city_1": "Glogow",
+        "city_2": "Gora",
+        "road_name": "DW324",
+        "road_type": "P",
+        "distance": 35.3
+    }, {
+        "city_1": "Trzebnica",
+        "city_2": "Gora",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 65.3
+    }, {
+        "city_1": "Trzebnica",
+        "city_2": "Leszno",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 77.9
+    }, {
+        "city_1": "Trzebnica",
+        "city_2": "Rawicz",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 43.6
+    }, {
+        "city_1": "Trzebnica",
+        "city_2": "Milicz",
+        "road_name": "DK15",
+        "road_type": "K",
+        "distance": 31.5
+    }, {
+        "city_1": "Olawa",
+        "city_2": "Trzebnica",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 77.7
+    }, {
+        "city_1": "Olawa",
+        "city_2": "Strzelin",
+        "road_name": "DW396",
+        "road_type": "P",
+        "distance": 26.2
+    }, {
+        "city_1": "Olawa",
+        "city_2": "Swidnica",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 94.9
+    }, {
+        "city_1": "Olawa",
+        "city_2": "SrodaSlaska",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 77.3
+    }, {
+        "city_1": "Olawa",
+        "city_2": "Brzeg",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 16.8
+    }, {
+        "city_1": "Zabkowiceslaskie",
+        "city_2": "Strzelin",
+        "road_name": "DW395",
+        "road_type": "P",
+        "distance": 30.7
+    }, {
+        "city_1": "Zabkowiceslaskie",
+        "city_2": "SrodaSlaska",
+        "road_name": "S8",
+        "road_type": "S",
+        "distance": 80.9
+    }, {
+        "city_1": "Polkowice",
+        "city_2": "Glogow",
+        "road_name": "DW329",
+        "road_type": "P",
+        "distance": 21.6
+    }, {
+        "city_1": "Polkowice",
+        "city_2": "Gora",
+        "road_name": "DW323",
+        "road_type": "P",
+        "distance": 49.2
+    }, {
+        "city_1": "Polkowice",
+        "city_2": "Nowa Sol",
+        "road_name": "DK3",
+        "road_type": "S",
+        "distance": 45.9
+    }, {
+        "city_1": "Polkowice",
+        "city_2": "Zagan",
+        "road_name": "DK12",
+        "road_type": "K",
+        "distance": 61.4
+    }, {
+        "city_1": "Luban",
+        "city_2": "Boleslawiec",
+        "road_name": "DW357",
+        "road_type": "P",
+        "distance": 28.5
+    },  {
+        "city_1": "Luban",
+        "city_2": "LwowekSlaski",
+        "road_name": "DK30",
+        "road_type": "K",
+        "distance": 33.2
+    },  {
+        "city_1": "Luban",
+        "city_2": "Zary",
+        "road_name": "DW351",
+        "road_type": "P",
+        "distance": 90.6
+    }, {
+        "city_1": "SrodaSlaska",
+        "city_2": "Trzebnica",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 53.2
+    }, {
+        "city_1": "SrodaSlaska",
+        "city_2": "Wolow",
+        "road_name": "DW343",
+        "road_type": "P",
+        "distance": 34.1
+    }, {
+        "city_1": "SrodaSlaska",
+        "city_2": "Lubin",
+        "road_name": "DK36",
+        "road_type": "K",
+        "distance": 39.7
+    }, {
+        "city_1": "SrodaSlaska",
+        "city_2": "Jawor",
+        "road_name": "DW363",
+        "road_type": "P",
+        "distance": 37.9
+    }, {
+        "city_1": "Jawor",
+        "city_2": "Zlotoryja",
+        "road_name": "DW363",
+        "road_type": "P",
+        "distance": 23.1
+    }, {
+        "city_1": "Jawor",
+        "city_2": "KamiennaGora",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 39.7
+    },  {
+        "city_1": "Jawor",
+        "city_2": "Olawa",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 98.4
+    }, {
+        "city_1": "Jawor",
+        "city_2": "Wolow",
+        "road_name": "DW338",
+        "road_type": "P",
+        "distance": 57.4
+    }, {
+        "city_1": "Wolow",
+        "city_2": "Rawicz",
+        "road_name": "DW339",
+        "road_type": "P",
+        "distance": 45.3
+    }, {
+        "city_1": "Wolow",
+        "city_2": "Gora",
+        "road_name": "DW338",
+        "road_type": "P",
+        "distance": 45.8
+    }, {
+        "city_1": "Wolow",
+        "city_2": "Milicz",
+        "road_name": "DW339",
+        "road_type": "P",
+        "distance": 61.5
+    }, {
+        "city_1": "Wolow",
+        "city_2": "Trzebnica",
+        "road_name": "DW340",
+        "road_type": "P",
+        "distance": 32.6
+    }, {
+        "city_1": "LwowekSlaski",
+        "city_2": "KamiennaGora",
+        "road_name": "DW328",
+        "road_type": "P",
+        "distance": 61.9
+    }, {
+        "city_1": "LwowekSlaski",
+        "city_2": "Boleslawiec",
+        "road_name": "DW297",
+        "road_type": "P",
+        "distance": 20
+    }, {
+        "city_1": "LwowekSlaski",
+        "city_2": "Zlotoryja",
+        "road_name": "DW364",
+        "road_type": "P",
+        "distance": 25.9
+    }, {
+        "city_1": "Zlotoryja",
+        "city_2": "Boleslawiec",
+        "road_name": "DW363",
+        "road_type": "P",
+        "distance": 35.4
+    }, {
+        "city_1": "Zlotoryja",
+        "city_2": "KamiennaGora",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 73.8
+    }, {
+        "city_1": "Zlotoryja",
+        "city_2": "Walbrzych",
+        "road_name": "S3",
+        "road_type": "S",
+        "distance": 78
+    }, {
+        "city_1": "Zlotoryja",
+        "city_2": "Swidnica",
+        "road_name": "DW382",
+        "road_type": "P",
+        "distance": 67.1
+    }, {
+        "city_1": "Strzelin",
+        "city_2": "Swidnica",
+        "road_name": "Dk39",
+        "road_type": "K",
+        "distance": 47.1
+    }, {
+        "city_1": "Strzelin",
+        "city_2": "SrodaSlaska",
+        "road_name": "A4",
+        "road_type": "S",
+        "distance": 73.9
+    }, {
+        "city_1": "Strzelin",
+        "city_2": "Olesnica",
+        "road_name": "A8",
+        "road_type": "A",
+        "distance": 85
+    }, {
+        "city_1": "KamiennaGora",
+        "city_2": "Swidnica",
+        "road_name": "DW367",
+        "road_type": "P",
+        "distance": 40.6
+    }, {
+        "city_1": "KamiennaGora",
+        "city_2": "Klodzko",
+        "road_name": "CR_302",
+        "road_type": "P",
+        "distance": 68.7
+    }, {
+        "city_1": "Milicz",
+        "city_2": "Gora",
+        "road_name": "DW439",
+        "road_type": "P",
+        "distance": 67.3
+    }, {
+        "city_1": "Milicz",
+        "city_2": "Rawicz",
+        "road_name": "DW439",
+        "road_type": "P",
+        "distance": 39.3
+    }, {
+        "city_1": "Milicz",
+        "city_2": "Gostyn",
+        "road_name": "Wroclawska",
+        "road_type": "P",
+        "distance": 54.7
+    }, {
+        "city_1": "Milicz",
+        "city_2": "Krotoszyn",
+        "road_name": "DK15",
+        "road_type": "K",
+        "distance": 23.5
+    }, {
+        "city_1": "Milicz",
+        "city_2": "OstrowWielkopolski",
+        "road_name": "DK36",
+        "road_type": "K",
+        "distance": 46.5
+    }, {
+        "city_1": "Milicz",
+        "city_2": "Ostrzeszow",
+        "road_name": "DK25",
+        "road_type": "K",
+        "distance": 62.6
+    }, {
+        "city_1": "Gora",
+        "city_2": "Wschowa",
+        "road_name": "DW305",
+        "road_type": "P",
+        "distance": 25.6
+    }, {
+        "city_1": "Gora",
+        "city_2": "Leszno",
+        "road_name": "DW323",
+        "road_type": "P",
+        "distance": 23.4
+    }, {
+        "city_1": "Gora",
+        "city_2": "Rawicz",
+        "road_name": "DW324",
+        "road_type": "P",
+        "distance": 25.1
+    }, {
+        "city_1": "Zgorzelec",
+        "city_2": "Bogatynia",
+        "road_name": "DW352",
+        "road_type": "P",
+        "distance": 31.4
+    }, {
+        "city_1": "Luban",
+        "city_2": "Bogatynia",
+        "road_name": "DW352",
+        "road_type": "P",
+        "distance": 46.1
+    }, {
+        "city_1": "JeleniaGora",
+        "city_2": "SzklarskaPoreba",
+        "road_name": "DK3",
+        "road_type": "K",
+        "distance": 19.5
+    }, {
+        "city_1": "Karpacz",
+        "city_2": "SzklarskaPoreba",
+        "road_name": "DW366",
+        "road_type": "P",
+        "distance": 27.2
+    }, {
+        "city_1": "Karpacz",
+        "city_2": "KamiennaGora",
+        "road_name": "DW367",
+        "road_type": "P",
+        "distance": 29.5
+    }, {
+        "city_1": "Karpacz",
+        "city_2": "JeleniaGora",
+        "road_name": "DW367",
+        "road_type": "P",
+        "distance": 16.4
+    }, {
+        "city_1": "Bolkow",
+        "city_2": "JeleniaGora",
+        "road_name": "DK3",
+        "road_type": "K",
+        "distance": 32
+    }, {
+        "city_1": "Bolkow",
+        "city_2": "KamiennaGora",
+        "road_name": "DK5",
+        "road_type": "K",
+        "distance": 19.3
+    }, {
+        "city_1": "Bolkow",
+        "city_2": "Jawor",
+        "road_name": "DW333",
+        "road_type": "P",
+        "distance": 18.1
+    }, {
+        "city_1": "Bolkow",
+        "city_2": "Swiebodzice",
+        "road_name": "DK34",
+        "road_type": "K",
+        "distance": 21.9
+    }, {
+        "city_1": "Swiebodzice",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 12.9
+    }, {
+        "city_1": "Swiebodzice",
+        "city_2": "Walbrzych",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 9.9
+    }, {
+        "city_1": "Bielawa",
+        "city_2": "Dzierzoniow",
+        "road_name": "DW384",
+        "road_type": "P",
+        "distance": 5.7
+    }, {
+        "city_1": "Bielawa",
+        "city_2": "Klodzko",
+        "road_name": "DW384",
+        "road_type": "P",
+        "distance": 36.5
+    }, {
+        "city_1": "PolanicaZdroj",
+        "city_2": "Klodzko",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 13.6
+    }, {
+        "city_1": "DusznikiZdroj",
+        "city_2": "PolanicaZdroj",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 12.7
+    }, {
+        "city_1": "KudowaZdroj",
+        "city_2": "DusznikiZdroj",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 14.9
+    }, {
+        "city_1": "DusznikiZdroj",
+        "city_2": "Klodzko",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 23.1
+    }, {
+        "city_1": "Strzelin",
+        "city_2": "BielanyWroclawskie",
+        "road_name": "DW395",
+        "road_type": "K",
+        "distance": 36
+    }, {
+        "city_1": "Strzelin",
+        "city_2": "Brzeg",
+        "road_name": "DK39",
+        "road_type": "P",
+        "distance": 35.2
+    }, {
+        "city_1": "Sobotka",
+        "city_2": "KatyWroclawskie",
+        "road_name": "Wroclawska",
+        "road_type": "P",
+        "distance": 20
+    }, {
+        "city_1": "Sobotka",
+        "city_2": "BielanyWroclawskie",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 26.1
+    }, {
+        "city_1": "Sobotka",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "P",
+        "distance": 23.4
+    }, {
+        "city_1": "KatyWroclawskie",
+        "city_2": "SrodaSlaska",
+        "road_name": "DW346",
+        "road_type": "P",
+        "distance": 22.9
+    }, {
+        "city_1": "KatyWroclawskie",
+        "city_2": "BielanyWroclawskie",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 19.6
+    }, {
+        "city_1": "KatyWroclawskie",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 39.4
+    }, {
+        "city_1": "BielanyWroclawskie",
+        "city_2": "Brzeg",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 55.8
+    }, {
+        "city_1": "BielanyWroclawskie",
+        "city_2": "JelczLaskowice",
+        "road_name": "DW455",
+        "road_type": "P",
+        "distance": 34.8
+    }, {
+        "city_1": "BielanyWroclawskie",
+        "city_2": "Swidnica",
+        "road_name": "DK35",
+        "road_type": "K",
+        "distance": 45.3
+    }, {
+        "city_1": "JelczLaskowice",
+        "city_2": "Olawa",
+        "road_name": "DW455",
+        "road_type": "P",
+        "distance": 10.8
+    }, {
+        "city_1": "JelczLaskowice",
+        "city_2": "Brzeg",
+        "road_name": "Brzegowa",
+        "road_type": "P",
+        "distance": 25
+    }, {
+        "city_1": "JelczLaskowice",
+        "city_2": "Bierutow",
+        "road_name": "Glowna",
+        "road_type": "P",
+        "distance": 25.9
+    }, {
+        "city_1": "JelczLaskowice",
+        "city_2": "Olesnica",
+        "road_name": "Olawska",
+        "road_type": "P",
+        "distance": 26.2
+    }, {
+        "city_1": "Bierutow",
+        "city_2": "Namyslow",
+        "road_name": "DW451",
+        "road_type": "P",
+        "distance": 14.1
+    }, {
+        "city_1": "Bierutow",
+        "city_2": "Olesnica",
+        "road_name": "DW451",
+        "road_type": "P",
+        "distance": 15.7
+    }, {
+        "city_1": "Sycow",
+        "city_2": "Namyslow",
+        "road_name": "Namyslowska",
+        "road_type": "P",
+        "distance": 28.3
+    }, {
+        "city_1": "Sycow",
+        "city_2": "Olesnica",
+        "road_name": "S8",
+        "road_type": "S",
+        "distance": 28
+    }, {
+        "city_1": "Sycow",
+        "city_2": "Ostrzeszow",
+        "road_name": "DW449",
+        "road_type": "P",
+        "distance": 21.9
+    }, {
+        "city_1": "Sycow",
+        "city_2": "Bierutow",
+        "road_name": "Kolejowa",
+        "road_type": "P",
+        "distance": 27.9
+    }, {
+        "city_1": "ObornikiSlaskie",
+        "city_2": "Trzebnica",
+        "road_name": "DW340",
+        "road_type": "P",
+        "distance": 12
+    }, {
+        "city_1": "ObornikiSlaskie",
+        "city_2": "BrzegDolny",
+        "road_name": "DW340",
+        "road_type": "P",
+        "distance": 18.1
+    }, {
+        "city_1": "ObornikiSlaskie",
+        "city_2": "Wolow",
+        "road_name": "DW340",
+        "road_type": "P",
+        "distance": 20.6
+    }, {
+        "city_1": "BrzegDolny",
+        "city_2": "KatyWroclawskie",
+        "road_name": "DW362",
+        "road_type": "P",
+        "distance": 36.4
+    }, {
+        "city_1": "BrzegDolny",
+        "city_2": "Wolow",
+        "road_name": "DW343",
+        "road_type": "P",
+        "distance": 9.1
+    }, {
+        "city_1": "BrzegDolny",
+        "city_2": "SrodaSlaska",
+        "road_name": "Kolejowa",
+        "road_type": "P",
+        "distance": 26
+    }, {
+        "city_1": "Nowogrodziec",
+        "city_2": "Zgorzelec",
+        "road_name": "A4",
+        "road_type": "A",
+        "distance": 34.6
+    }, {
+        "city_1": "Nowogrodziec",
+        "city_2": "Luban",
+        "road_name": "DW357",
+        "road_type": "P",
+        "distance": 13.8
+    }, {
+        "city_1": "Nowogrodziec",
+        "city_2": "Boleslawiec",
+        "road_name": "DK94",
+        "road_type": "K",
+        "distance": 15.1
+    }, {
+        "city_1": "Nowogrodziec",
+        "city_2": "LwowekSlaski",
+        "road_name": "2499D",
+        "road_type": "P",
+        "distance": 20.7
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "Bogatynia",
+        "road_name": "CR_291",
+        "road_type": "P",
+        "distance": 44.4
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "Luban",
+        "road_name": "DK30",
+        "road_type": "K",
+        "distance": 14.3
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "Nowogrodziec",
+        "road_name": "Jeleniogorska",
+        "road_type": "P",
+        "distance": 25.4
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "LwowekSlaski",
+        "road_name": "DW364",
+        "road_type": "P",
+        "distance": 20.6
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "JeleniaGora",
+        "road_name": "DK30",
+        "road_type": "K",
+        "distance": 31
+    }, {
+        "city_1": "GryfowSlaski",
+        "city_2": "SzklarskaPoreba",
+        "road_name": "DW358",
+        "road_type": "P",
+        "distance": 37.6
+    }
+    ]
+}

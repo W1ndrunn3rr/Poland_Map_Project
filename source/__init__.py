@@ -1,3 +1,4 @@
-__all__ = ["Graph", "City", "Connection"]
+__all__ = ["Graph", "City", "Connection", "PriorityQueue"]
 from .graph import Graph
-from .infrastructure import City, Connection
+from .infrastructure import City, Connection, PathFinder
+from .priority_queue import PriorityQueue

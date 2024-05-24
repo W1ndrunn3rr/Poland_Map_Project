@@ -73,6 +73,12 @@
         "longitude": 23.553889
     },
     {
+         "name" : "JanowLubelski",
+        "id" : "JanowLubelski",
+        "latitude" : 50.706667,
+        "longitude": 22.410556
+    },
+    {
         "name" : "Radzyń Podlaski",
         "id" : "RadzynPodlaski",
         "latitude" : 51.785000,
@@ -113,6 +119,13 @@
         "id" : "Ryki",
         "latitude" : 51.624722,
         "longitude": 21.933056
+    },
+    {
+      "name" : "Parczew",
+      "id" : "Parczew",
+      "latitude" : 51.641361,
+      "longitude": 22.904056
+
     }
 ],"connections" : [
     {

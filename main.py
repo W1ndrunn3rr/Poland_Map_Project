@@ -8,5 +8,4 @@ if __name__ == "__main__":
         data = json.load(file)
 
         graph = Graph(data)
-
-        graph.print_graph()
+        print(graph.a_star_algorithm("Lukow", "Bilograj"))
