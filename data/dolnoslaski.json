@@ -899,12 +899,13 @@
         "road_name": "DW439",
         "road_type": "P",
         "distance": 67.3
-    }, {
+    },
+    {
         "city_1": "Milicz",
         "city_2": "Rawicz",
         "road_name": "DW439",
         "road_type": "P",
-        "distance": 39.3
+        "distance": 39
     }, {
         "city_1": "Milicz",
         "city_2": "Gostyn",

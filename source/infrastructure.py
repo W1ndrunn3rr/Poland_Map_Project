@@ -1,11 +1,19 @@
 from collections.abc import MutableSet
 from functools import total_ordering
 import math
+from typing import Dict, Tuple, final
+
+DEGREES_FOR_METER = 111320
+KPH_TO_MPS = 5 / 18
+MAX_VELOCITY = 130
+KILOMETERS_IN_METERS = 1000
+SECONDS_IN_HOURS = 3600
 
 
 def convert_time(time):
-    hours = int(time)
-    minutes = round((time - hours) * 60)
+    divided_time = time / 3600
+    hours = int(divided_time)
+    minutes = round((divided_time - hours) * 60)
 
     if minutes >= 60:
         hours += 1
@@ -26,7 +34,7 @@ class Connection:
         "A": 130,
         "S": 110,
         "K": 90,
-        "P": 90,
+        "P": 70,
         "W": 90,
     }  # do poprawienia przeliczniki
 
@@ -37,39 +45,43 @@ class Connection:
         self.distance = distance
 
     def calculate_time(self):
-        time = (
-            (self.distance * 1000) / (self.velocity_dict[self.road_type] * (5 / 18))
-        ) / 3600
+        time = (self.distance * KILOMETERS_IN_METERS) / (
+            self.velocity_dict[self.road_type] * KPH_TO_MPS
+        )
         return time
 
 
 class PathFinder:
-    def h_score(self, start: City, end: City):
-        return math.sqrt(
+    def h_score(self, start: City, end: City, option="shortest"):
+        euklides_distance = math.sqrt(
             (start.longitude - end.longitude) ** 2
             + (start.latitude - end.latitude) ** 2
         )
+        if option == "shortest":
+            return euklides_distance * DEGREES_FOR_METER
+        elif option == "fastest":
+            return (euklides_distance * DEGREES_FOR_METER) / (MAX_VELOCITY * KPH_TO_MPS)
 
-    def make_path(self, path, current):
-        total_path = [current.id]
-        while current in path:
-            current = path[current]
-            total_path.append(current.id)
-        return total_path[::-1]
+        return -1
 
-    # zopytmalizować
-    def total_path(self, path: list, graph):
-        copied_path: list = path.copy()
-        total_path = []
-        for city_id in copied_path:
-            connections = next(
-                connection for city, connection in graph.items() if city.id == city_id
-            )
-            copied_path.remove(city_id)
-            for connection in connections:
-                if connection.destination.id in copied_path:
-                    total_path.append(connection)
+    def make_path(self, came_from, current):
+        total_path = [current]
+        total_roads = []
+        while current in came_from:
+            current, road = came_from[current]
+            total_path.append(current)
+            total_roads.append(road)
+        total_roads.reverse()
+        total_path.reverse()
+        return total_path, total_roads  # zopytmalizować
 
-        total_time = sum(connection.calculate_time() for connection in total_path)
-        total_road = sum(connection.distance for connection in total_path)
-        return f"Total road : {total_road} km, Total time : {convert_time(total_time)}"
+    def total_path(self, final_path, final_roads):
+        cities = []
+        connections = []
+        for city in final_path:
+            cities.append(city.id)
+        for connection in final_roads:
+            connections.append(connection.road_name)
+        total_time = sum(connection.calculate_time() for connection in final_roads)
+        total_road = sum(connection.distance for connection in final_roads)
+        return f"Cities : {cities}]\nTotal road : {total_road} km\nTotal time : {convert_time(total_time)}\nRoads : {connections}\n"
