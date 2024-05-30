@@ -1,0 +1,1013 @@
+{
+    "cities" : 
+    [
+        {
+            "name" : "Warszawa",
+            "id" : "Warszawa",
+            "longitude" : 21.008333,
+            "latitude" : 52.232222
+        },
+        {
+            "name" : "Żyrardów",
+            "id" : "Zyrardow",
+            "longitude" : 20.444444,
+            "latitude" : 52.054167
+        },
+        {
+            "name" : "Żuromin",
+            "id" : "Zuromin",
+            "longitude" : 19.909167,
+            "latitude" : 53.066667
+        },
+        {
+            "name" : "Zwoleń",
+            "id" : "Zwolen",
+            "longitude" : 21.583889,
+            "latitude" : 51.356944
+        },
+        {
+            "name" : "Wyszków",
+            "id" : "Wyszkow",
+            "longitude" : 21.459167,
+            "latitude" : 52.593056
+        },
+        {
+            "name" : "Wołomin",
+            "id" : "Wolomin",
+            "longitude" : 21.241944,
+            "latitude" : 52.346667
+        },
+        {
+            "name" : "Węgrów",
+            "id" : "Wegrow",
+            "longitude" : 22.016389,
+            "latitude" : 52.399167
+        },
+        {
+            "name" : "Ożarów Mazowiecki",
+            "id" : "OzarowMazowiecki",
+            "longitude" : 20.793611,
+            "latitude" : 52.208333
+        },
+        {
+            "name" : "Szydłowiec",
+            "id" : "Szydlowiec",
+            "longitude" : 20.857222,
+            "latitude" : 51.223889
+        },
+        {
+            "name" : "Sokołów Podlaski",
+            "id" : "SokolowPodlaski",
+            "longitude" : 22.249722,
+            "latitude" : 52.4075
+        },
+        {
+            "name" : "Sochaczew",
+            "id" : "Sochaczew",
+            "longitude" : 20.241667,
+            "latitude" : 52.227778
+        },
+        {
+            "name" : "Sierpc",
+            "id" : "Sierpc",
+            "longitude" : 19.668056,
+            "latitude" : 52.853056
+        },
+        {
+            "name" : "Siedlce",
+            "id" : "Siedlce",
+            "longitude" : 22.275,
+            "latitude" : 52.166667
+        },
+        {
+            "name" : "Radom",
+            "id" : "Radom",
+            "longitude" : 21.156667,
+            "latitude" : 51.403611
+        },
+        {
+            "name" : "Przysucha",
+            "id" : "Przysucha",
+            "longitude" : 20.628333,
+            "latitude" : 51.358333
+        },
+        {
+            "name" : "Przasnysz",
+            "id" : "Przasnysz",
+            "longitude" : 20.880556,
+            "latitude" : 53.019444
+        },
+        {
+            "name" : "Pruszków",
+            "id" : "Pruszkow",
+            "longitude" : 20.805556,
+            "latitude" : 52.165556
+        },
+        {
+            "name" : "Płońsk",
+            "id" : "Plonsk",
+            "longitude" : 20.371111,
+            "latitude" : 52.623333
+        },
+        {
+            "name" : "Płock",
+            "id" : "Plock",
+            "longitude" : 19.7,
+            "latitude" : 52.547222
+        },
+        {
+            "name" : "Piaseczno",
+            "id" : "Piaseczno",
+            "longitude" : 21.026389,
+            "latitude" : 52.075556
+        },
+        {
+            "name" : "Otwock",
+            "id" : "Otwock",
+            "longitude" : 21.265833,
+            "latitude" : 52.106111
+        },
+        {
+            "name" : "Ostrów Mazowiecka",
+            "id" : "OstrowMazowiecka",
+            "longitude" : 21.896111,
+            "latitude" : 52.800833
+        },
+        {
+            "name" : "Ostrołęka",
+            "id" : "Ostroleka",
+            "longitude" : 21.5725,
+            "latitude" : 53.082778
+        },
+        {
+            "name" : "Nowy Dwór Mazowiecki",
+            "id" : "NowyDworMazowiecki",
+            "longitude" : 20.715833,
+            "latitude" : 52.430278
+        },
+        {
+            "name" : "Mława",
+            "id" : "Mlawa",
+            "longitude" : 20.3575,
+            "latitude" : 53.127222
+        },
+        {
+            "name" : "Mińsk Mazowiecki",
+            "id" : "MinskMazowiecki",
+            "longitude" : 21.558333,
+            "latitude" : 52.180556
+        },
+        {
+            "name" : "Maków Mazowiecki",
+            "id" : "MakowMazowiecki",
+            "longitude" : 21.100556,
+            "latitude" : 52.865
+        },
+        {
+            "name" : "Łosice",
+            "id" : "Losice",
+            "longitude" : 22.718889,
+            "latitude" : 52.2125
+        },
+        {
+            "name" : "Lipsko",
+            "id" : "Lipsko",
+            "longitude" : 21.649167,
+            "latitude" : 51.158333
+        },
+        {
+            "name" : "Legionowo",
+            "id" : "Legionowo",
+            "longitude" : 20.934722,
+            "latitude" : 52.406667
+        },
+        {
+            "name" : "Kozienice",
+            "id" : "Kozienice",
+            "longitude" : 21.551111,
+            "latitude" : 51.585556
+        },
+        {
+            "name" : "Grodzisk Mazowiecki",
+            "id" : "GrodziskMazowiecki",
+            "longitude" : 20.631667,
+            "latitude" : 52.106389
+        },
+        {
+            "name" : "Gostynin",
+            "id" : "Gostynin",
+            "longitude" : 19.461667,
+            "latitude" : 52.429167
+        },
+        {
+            "name" : "Garwolin",
+            "id" : "Garwolin",
+            "longitude" : 21.615,
+            "latitude" : 51.896944 
+        },
+        {
+            "name" : "Ciechanów",
+            "id" : "Ciechanow",
+            "longitude" : 20.610556,
+            "latitude" : 52.881667
+        },
+        {
+            "name" : "Białobrzegi",
+            "id" : "Bialobrzegi",
+            "longitude" : 20.95,
+            "latitude" : 51.648611
+        },
+        {
+            "name" : "Grójec",
+            "id" : "Grojec",
+            "longitude" : 20.8675,
+            "latitude" : 51.865556
+        }, 
+        {
+            "name" : "Pułtusk",
+            "id" : "Pultusk",
+            "longitude" : 21.083889,
+            "latitude" : 52.705
+        }
+    ],
+    "connections" :
+    [
+        {
+          "city_1": "Warszawa",
+          "city_2": "Radom",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 17.6
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "OzarowMazowiecki",
+          "road_name": "DW718",
+          "road_type": "P",
+          "distance": 22.9
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "NowyDworMazowiecki",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 38.0
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Legionowo",
+          "road_name": "DK61",
+          "road_type": "K",
+          "distance": 25.3
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Wolomin",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 28.3
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "MinskMazowiecki",
+          "road_name": "A2",
+          "road_type": "A",
+          "distance": 45.0
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Otwock",
+          "road_name": "DW801",
+          "road_type": "P",
+          "distance": 25.8
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Piaseczno",
+          "road_name": "DK79",
+          "road_type": "K",
+          "distance": 17.2
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Grojec",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 48.5
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "GrodziskMazowiecki",
+          "road_name": "A2",
+          "road_type": "A",
+          "distance": 39.3
+        },
+        {
+          "city_1": "Warszawa",
+          "city_2": "Wyszkow",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 60.8
+        },
+        {
+          "city_1": "Legionowo",
+          "city_2": "NowyDworMazowiecki",
+          "road_name": "DW630",
+          "road_type": "P",
+          "distance": 22.9
+        },
+        {
+          "city_1": "Legionowo",
+          "city_2": "Pultusk",
+          "road_name": "DK61",
+          "road_type": "K",
+          "distance": 36.5
+        },
+        {
+          "city_1": "Legionowo",
+          "city_2": "Wyszkow",
+          "road_name": "DK62",
+          "road_type": "K",
+          "distance": 44.6
+        },
+        {
+          "city_1": "Wolomin",
+          "city_2": "Wyszkow",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 41.2
+        },
+        {
+          "city_1": "Wolomin",
+          "city_2": "Wegrow",
+          "road_name": "DW634",
+          "road_type": "P",
+          "distance": 63.6
+        },
+        {
+          "city_1": "Wolomin",
+          "city_2": "MinskMazowiecki",
+          "road_name": "DW637",
+          "road_type": "P",
+          "distance": 39.6
+        },
+        {
+          "city_1": "MinskMazowiecki",
+          "city_2": "Wegrow",
+          "road_name": "DK92",
+          "road_type": "K",
+          "distance": 45.7
+        },
+        {
+          "city_1": "MinskMazowiecki",
+          "city_2": "Siedlce",
+          "road_name": "DK2",
+          "road_type": "K",
+          "distance": 57.7
+        },
+        {
+          "city_1": "MinskMazowiecki",
+          "city_2": "Garwolin",
+          "road_name": "DW802",
+          "road_type": "P",
+          "distance": 38.1
+        },
+        {
+          "city_1": "MinskMazowiecki",
+          "city_2": "OstrowMazowiecka",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 79.4
+        },
+        {
+          "city_1": "MinskMazowiecki",
+          "city_2": "Grojec",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 69.4
+        },
+        {
+          "city_1": "Otwock",
+          "city_2": "MinskMazowiecki",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 27.4
+        },
+        {
+          "city_1": "Otwock",
+          "city_2": "Garwolin",
+          "road_name": "S17",
+          "road_type": "S",
+          "distance": 40.4
+        },
+        {
+          "city_1": "Otwock",
+          "city_2": "Grojec",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 47.1
+        },
+        {
+          "city_1": "Otwock",
+          "city_2": "Kozienice",
+          "road_name": "DK79",
+          "road_type": "K",
+          "distance": 70.1
+        },
+        {
+          "city_1": "Piaseczno",
+          "city_2": "Otwock",
+          "road_name": "S2",
+          "road_type": "S",
+          "distance": 27.9
+        },
+        {
+          "city_1": "Piaseczno",
+          "city_2": "Kozienice",
+          "road_name": "DK79",
+          "road_type": "K",
+          "distance": 70.7
+        },
+        {
+          "city_1": "Piaseczno",
+          "city_2": "Grojec",
+          "road_name": "DW722",
+          "road_type": "P",
+          "distance": 36.2
+        },
+        {
+          "city_1": "Piaseczno",
+          "city_2": "GrodziskMazowiecki",
+          "road_name": "DW721",
+          "road_type": "P",
+          "distance": 34.0
+        },
+        {
+          "city_1": "GrodziskMazowiecki",
+          "city_2": "Grojec",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 37.2
+        },
+        {
+          "city_1": "GrodziskMazowiecki",
+          "city_2": "Zyrardow",
+          "road_name": "DW719",
+          "road_type": "P",
+          "distance": 14.8
+        },
+        {
+          "city_1": "GrodziskMazowiecki",
+          "city_2": "Pruszkow",
+          "road_name": "DW719",
+          "road_type": "P",
+          "distance": 15.7
+        },
+        {
+          "city_1": "GrodziskMazowiecki",
+          "city_2": "OzarowMazowiecki",
+          "road_name": "DW719",
+          "road_type": "P",
+          "distance": 22.2
+        },
+        {
+          "city_1": "Pruszkow",
+          "city_2": "OzarowMazowiecki",
+          "road_name": "DW718",
+          "road_type": "P",
+          "distance": 7.2
+        },
+        {
+          "city_1": "OzarowMazowiecki",
+          "city_2": "Sochaczew",
+          "road_name": "DK92",
+          "road_type": "K",
+          "distance": 38.6
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Plonsk",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 37.1
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Pultusk",
+          "road_name": "DW571",
+          "road_type": "P",
+          "distance": 43.5
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Plock",
+          "road_name": "DK62",
+          "road_type": "K",
+          "distance": 76.2
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Sochaczew",
+          "road_name": "DW575",
+          "road_type": "P",
+          "distance": 51.3
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Wyszkow",
+          "road_name": "DK62",
+          "road_type": "K",
+          "distance": 57.4
+        },
+        {
+          "city_1": "NowyDworMazowiecki",
+          "city_2": "Ciechanow",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 57.5
+        },
+        {
+          "city_1": "Wyszkow",
+          "city_2": "Pultusk",
+          "road_name": "DW618",
+          "road_type": "P",
+          "distance": 29.0
+        },
+        {
+          "city_1": "Wyszkow",
+          "city_2": "OstrowMazowiecka",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 39.0
+        },
+        {
+          "city_1": "Wyszkow",
+          "city_2": "Ostroleka",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 65.7
+        },
+        {
+          "city_1": "Wyszkow",
+          "city_2": "Wegrow",
+          "road_name": "DK62",
+          "road_type": "K",
+          "distance": 47.1
+        },
+        {
+          "city_1": "Grojec",
+          "city_2": "Zyrardow",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 38.8
+        },
+        {
+          "city_1": "Grojec",
+          "city_2": "Bialobrzegi",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 27.1
+        },
+        {
+          "city_1": "Grojec",
+          "city_2": "Garwolin",
+          "road_name": "DW739",
+          "road_type": "P",
+          "distance": 73.9
+        },
+        {
+          "city_1": "Grojec",
+          "city_2": "Kozienice",
+          "road_name": "DK48",
+          "road_type": "K",
+          "distance": 64.5
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "MakowMazowiecki",
+          "road_name": "DK57",
+          "road_type": "K",
+          "distance": 20.6
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "OstrowMazowiecka",
+          "road_name": "S8",
+          "road_type": "S",
+          "distance": 65.9
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "Ostroleka",
+          "road_name": "DK61",
+          "road_type": "K",
+          "distance": 60.1
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "Ciechanow",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 40.6
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "Przasnysz",
+          "road_name": "DK61",
+          "road_type": "K",
+          "distance": 40.9
+        },
+        {
+          "city_1": "Pultusk",
+          "city_2": "Plonsk",
+          "road_name": "DW571",
+          "road_type": "P",
+          "distance": 57.1
+        },
+        {
+          "city_1": "MakowMazowiecki",
+          "city_2": "Plonsk",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 66.0
+        },
+        {
+          "city_1": "MakowMazowiecki",
+          "city_2": "Ciechanow",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 36.7
+        },
+        {
+          "city_1": "MakowMazowiecki",
+          "city_2": "Przasnysz",
+          "road_name": "DK57",
+          "road_type": "K",
+          "distance": 24.1
+        },
+        {
+          "city_1": "MakowMazowiecki",
+          "city_2": "Ostroleka",
+          "road_name": "DW626",
+          "road_type": "P",
+          "distance": 46.9
+        },
+        {
+          "city_1": "MakowMazowiecki",
+          "city_2": "OstrowMazowiecka",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 56.3
+        },
+        {
+          "city_1": "Przasnysz",
+          "city_2": "Ciechanow",
+          "road_name": "DW617",
+          "road_type": "P",
+          "distance": 24.9
+        },
+        {
+          "city_1": "Przasnysz",
+          "city_2": "Mlawa",
+          "road_name": "DW544",
+          "road_type": "P",
+          "distance": 36.9
+        },
+        {
+          "city_1": "Przasnysz",
+          "city_2": "Ostroleka",
+          "road_name": "DW544",
+          "road_type": "P",
+          "distance": 53.0
+        },
+        {
+          "city_1": "Ostroleka",
+          "city_2": "OstrowMazowiecka",
+          "road_name": "DW627",
+          "road_type": "P",
+          "distance": 43.3
+        },
+        {
+          "city_1": "OstrowMazowiecka",
+          "city_2": "Wegrow",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 54.5
+        },
+        {
+          "city_1": "OstrowMazowiecka",
+          "city_2": "SokolowPodlaski",
+          "road_name": "DW627",
+          "road_type": "P",
+          "distance": 54.4
+        },
+        {
+          "city_1": "Wegrow",
+          "city_2": "SokolowPodlaski",
+          "road_name": "DK62",
+          "road_type": "K",
+          "distance": 17.0
+        },
+        {
+          "city_1": "Wegrow",
+          "city_2": "Siedlce",
+          "road_name": "DW696",
+          "road_type": "P",
+          "distance": 35.0
+        },
+        {
+          "city_1": "Wegrow",
+          "city_2": "Garwolin",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 78.2
+        },
+        {
+          "city_1": "SokolowPodlaski",
+          "city_2": "Siedlce",
+          "road_name": "DK63",
+          "road_type": "K",
+          "distance": 29.7
+        },
+        {
+          "city_1": "SokolowPodlaski",
+          "city_2": "Losice",
+          "road_name": "DW698",
+          "road_type": "P",
+          "distance": 42.7
+        },
+        {
+          "city_1": "Losice",
+          "city_2": "Siedlce",
+          "road_name": "DW698",
+          "road_type": "P",
+          "distance": 31.3
+        },
+        {
+          "city_1": "Siedlce",
+          "city_2": "Garwolin",
+          "road_name": "DK76",
+          "road_type": "K",
+          "distance": 62.5
+        },
+        {
+          "city_1": "Garwolin",
+          "city_2": "Kozienice",
+          "road_name": "S17",
+          "road_type": "S",
+          "distance": 84.6
+        },
+        {
+          "city_1": "Kozienice",
+          "city_2": "Zwolen",
+          "road_name": "DK79",
+          "road_type": "K",
+          "distance": 28.5
+        },
+        {
+          "city_1": "Kozienice",
+          "city_2": "Radom",
+          "road_name": "DW737",
+          "road_type": "P",
+          "distance": 36.9
+        },
+        {
+          "city_1": "Kozienice",
+          "city_2": "Bialobrzegi",
+          "road_name": "DK48",
+          "road_type": "K",
+          "distance": 47.7
+        },
+        {
+          "city_1": "Kozienice",
+          "city_2": "Przysucha",
+          "road_name": "DK12",
+          "road_type": "K",
+          "distance": 76.6
+        },
+        {
+          "city_1": "Zwolen",
+          "city_2": "Lipsko",
+          "road_name": "DK79",
+          "road_type": "K",
+          "distance": 24.5
+        },
+        {
+          "city_1": "Zwolen",
+          "city_2": "Radom",
+          "road_name": "DK12",
+          "road_type": "K",
+          "distance": 32.4
+        },
+        {
+          "city_1": "Lipsko",
+          "city_2": "Radom",
+          "road_name": "DW747",
+          "road_type": "P",
+          "distance": 54.0
+        },
+        {
+          "city_1": "Lipsko",
+          "city_2": "Szydlowiec",
+          "road_name": "DW747",
+          "road_type": "P",
+          "distance": 61.2
+        },
+        {
+          "city_1": "Bialobrzegi",
+          "city_2": "Radom",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 33.4
+        },
+        {
+          "city_1": "Bialobrzegi",
+          "city_2": "Przysucha",
+          "road_name": "DK48",
+          "road_type": "K",
+          "distance": 45.6
+        },
+        {
+          "city_1": "Bialobrzegi",
+          "city_2": "Szydlowiec",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 57.1
+        },
+        {
+          "city_1": "Radom",
+          "city_2": "Szydlowiec",
+          "road_name": "S7",
+          "road_type": "S",
+          "distance": 33.0
+        },
+        {
+          "city_1": "Radom",
+          "city_2": "Przysucha",
+          "road_name": "DK12",
+          "road_type": "K",
+          "distance": 38.9
+        },
+        {
+          "city_1": "Szydlowiec",
+          "city_2": "Przysucha",
+          "road_name": "DW727",
+          "road_type": "P",
+          "distance": 25.2
+        },
+        {
+          "city_1": "Zyrardow",
+          "city_2": "Sochaczew",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 28.2
+        },
+        {
+          "city_1": "Zyrardow",
+          "city_2": "Piaseczno",
+          "road_name": "DK8",
+          "road_type": "K",
+          "distance": 46.7
+        },
+        {
+          "city_1": "Sochaczew",
+          "city_2": "Gostynin",
+          "road_name": "DW577",
+          "road_type": "P",
+          "distance": 65.2
+        },
+        {
+          "city_1": "Sochaczew",
+          "city_2": "Plonsk",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 53.7
+        },
+        {
+          "city_1": "Sochaczew",
+          "city_2": "Plock",
+          "road_name": "DW575",
+          "road_type": "P",
+          "distance": 56.4
+        },
+        {
+          "city_1": "Sochaczew",
+          "city_2": "Sierpc",
+          "road_name": "DK10",
+          "road_type": "K",
+          "distance": 94.6
+        },
+        {
+          "city_1": "Gostynin",
+          "city_2": "Plock",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 23.8
+        },
+        {
+          "city_1": "Plock",
+          "city_2": "Sierpc",
+          "road_name": "DW560",
+          "road_type": "P",
+          "distance": 38.6
+        },
+        {
+          "city_1": "Plock",
+          "city_2": "Plonsk",
+          "road_name": "DK10",
+          "road_type": "K",
+          "distance": 50.1
+        },
+        {
+          "city_1": "Plock",
+          "city_2": "Zuromin",
+          "road_name": "DW561",
+          "road_type": "P",
+          "distance": 65.0
+        },
+        {
+          "city_1": "Plock",
+          "city_2": "Mlawa",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 92.9
+        },
+        {
+          "city_1": "Plock",
+          "city_2": "Ciechanow",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 80.8
+        },
+        {
+          "city_1": "Plonsk",
+          "city_2": "Sierpc",
+          "road_name": "DK10",
+          "road_type": "K",
+          "distance": 58.8
+        },
+        {
+          "city_1": "Plonsk",
+          "city_2": "Zuromin",
+          "road_name": "DK7",
+          "road_type": "K",
+          "distance": 73.3
+        },
+        {
+          "city_1": "Plonsk",
+          "city_2": "Mlawa",
+          "road_name": "DK7",
+          "road_type": "K",
+          "distance": 62.8
+        },
+        {
+          "city_1": "Plonsk",
+          "city_2": "Ciechanow",
+          "road_name": "DK50",
+          "road_type": "K",
+          "distance": 35.7
+        },
+        {
+          "city_1": "Sierpc",
+          "city_2": "Zuromin",
+          "road_name": "DW541",
+          "road_type": "P",
+          "distance": 31.2
+        },
+        {
+          "city_1": "Sierpc",
+          "city_2": "Mlawa",
+          "road_name": "DW541",
+          "road_type": "P",
+          "distance": 64.1
+        },
+        {
+          "city_1": "Sierpc",
+          "city_2": "Ciechanow",
+          "road_name": "DK60",
+          "road_type": "K",
+          "distance": 74.5
+        },
+        {
+          "city_1": "Ciechanow",
+          "city_2": "Mlawa",
+          "road_name": "DW615",
+          "road_type": "P",
+          "distance": 34.2
+        },
+        {
+          "city_1": "Ciechanow",
+          "city_2": "Zuromin",
+          "road_name": "DW615",
+          "road_type": "P",
+          "distance": 59.7
+        },
+        {
+          "city_1": "Mlawa",
+          "city_2": "Zuromin",
+          "road_name": "DW563",
+          "road_type": "P",
+          "distance": 35.4
+        }
+    ]
+}

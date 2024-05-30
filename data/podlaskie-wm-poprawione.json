@@ -1,0 +1,1617 @@
+{
+    "cities": [
+      {
+        "name": "Białystok",
+        "id": "Bialystok",
+        "longitude": 23.145556,
+        "latitude": 53.135278
+      },
+      {
+        "name": "Suwałki",
+        "id": "Suwalki",
+        "longitude": 22.9325,
+        "latitude": 54.101111
+      },
+      {
+        "name": "Łomża",
+        "id": "Lomza",
+        "longitude": 22.073056,
+        "latitude": 53.176389
+      },
+      {
+        "name": "Augustów",
+        "id": "Augustow",
+        "longitude": 22.9775,
+        "latitude": 53.843611
+      },
+      {
+        "name": "Bielsk Podlaski",
+        "id": "BielskPodlaski",
+        "longitude": 23.191944,
+        "latitude": 52.768333
+      },
+      {
+        "name": "Grajewo",
+        "id": "Grajewo",
+        "longitude": 22.455,
+        "latitude": 53.646667
+      },
+      {
+        "name": "Zambrów",
+        "id": "Zambrow",
+        "longitude": 22.241111,
+        "latitude": 52.985556
+      },
+      {
+        "name": "Hajnówka",
+        "id": "Hajnowka",
+        "longitude": 23.583333,
+        "latitude": 52.738889
+      },
+      {
+        "name": "Sokółka",
+        "id": "Sokolka",
+        "longitude": 23.5,
+        "latitude": 53.406944
+      },
+      {
+        "name": "Łapy",
+        "id": "Lapy",
+        "longitude": 22.885278,
+        "latitude": 52.991111
+      },
+      {
+        "name": "Siemiatycze",
+        "id": "Siemiatycze",
+        "longitude": 22.8625,
+        "latitude": 52.427222
+      },
+      {
+        "name": "Wasilków",
+        "id": "Wasilkow",
+        "longitude": 23.204444,
+        "latitude": 53.2
+      },
+      {
+        "name": "Kolno",
+        "id": "Kolno",
+        "longitude": 21.933889,
+        "latitude": 53.410556
+      },
+      {
+        "name": "Mońki",
+        "id": "Monki",
+        "longitude": 22.797222,
+        "latitude": 53.406944
+      },
+      {
+        "name": "Wysokie Mazowieckie",
+        "id": "WysokieMazowieckie",
+        "longitude": 22.514444,
+        "latitude": 52.916667
+      },
+      {
+        "name": "Czarna Białostocka",
+        "id": "CzarnaBialostocka",
+        "longitude": 23.282222,
+        "latitude": 53.305278
+      },
+      {
+        "name": "Choroszcz",
+        "id": "Choroszcz",
+        "longitude": 22.985556,
+        "latitude": 53.143056
+      },
+      {
+        "name": "Dąbrowa Białostocka",
+        "id": "DabrowaBialostocka",
+        "longitude": 23.348611,
+        "latitude": 53.653611
+      },
+      {
+        "name": "Sejny",
+        "id": "Sejny",
+        "longitude": 23.348611,
+        "latitude": 54.106667
+      },
+      {
+        "name": "Ciechanowiec",
+        "id": "Ciechanowiec",
+        "longitude": 22.491667,
+        "latitude": 52.686111
+      },
+      {
+        "name": "Supraśl",
+        "id": "Suprasl",
+        "longitude": 23.3375,
+        "latitude": 53.211111
+      },
+      {
+        "name": "Brańsk",
+        "id": "Bransk",
+        "longitude": 22.833333,
+        "latitude": 52.745556
+      },
+      {
+        "name": "Szczuczyn",
+        "id": "Szczuczyn",
+        "longitude": 22.285,
+        "latitude": 53.566111
+      },
+      {
+        "name": "Michałowo",
+        "id": "Michalowo",
+        "longitude": 23.604444,
+        "latitude": 53.036944
+      },
+      {
+        "name": "Knyszyn",
+        "id": "Knyszyn",
+        "longitude": 22.919444,
+        "latitude": 53.3125
+      },
+      {
+        "name": "Zabłudów",
+        "id": "Zabludow",
+        "longitude": 23.335278,
+        "latitude": 53.015278
+      },
+      {
+        "name": "Czyżew",
+        "id": "Czyzew",
+        "longitude": 22.329167,
+        "latitude": 52.795833
+      },
+      {
+        "name": "Krynki",
+        "id": "Krynki",
+        "longitude": 23.772222,
+        "latitude": 53.265278
+      },
+      {
+        "name": "Nowogród",
+        "id": "Nowogrod",
+        "longitude": 21.880556,
+        "latitude": 53.227778
+      },
+      {
+        "name": "Lipsk",
+        "id": "Lipsk",
+        "longitude": 23.399722,
+        "latitude": 53.733611
+      },
+      {
+        "name": "Drohiczyn",
+        "id": "Drohiczyn",
+        "longitude": 22.659167,
+        "latitude": 52.397222
+      },
+      {
+        "name": "Białowieża",
+        "id": "Bialowieza",
+        "longitude": 23.867778,
+        "latitude": 52.700556
+      },
+      {
+        "name": "Wigry",
+        "id": "Wigry",
+        "longitude": 23.080214,
+        "latitude": 54.019267
+      },
+      {
+        "name": "Bartoszyce",
+        "id": "Bartoszyce",
+        "longitude": 20.808056,
+        "latitude": 54.248889
+      },
+      {
+        "name": "Bisztynek",
+        "id": "Bisztynek",
+        "longitude": 20.9,
+        "latitude": 54.085556
+      },
+      {
+        "name": "Braniewo",
+        "id": "Braniewo",
+        "longitude": 19.819722,
+        "latitude": 54.379444
+      },
+      {
+        "name": "Frombork",
+        "id": "Frombork",
+        "longitude": 19.683056,
+        "latitude": 54.358333
+      },
+      {
+        "name": "Działdowo",
+        "id": "Dzialdowo",
+        "longitude": 20.177778,
+        "latitude": 53.236111
+      },
+      {
+        "name": "Lidzbark",
+        "id": "Lidzbark",
+        "longitude": 19.821111,
+        "latitude": 53.260278
+      },
+      {
+        "name": "Elbląg",
+        "id": "Elblag",
+        "longitude": 19.402778,
+        "latitude": 54.158333
+      },
+      {
+        "name": "Młynary",
+        "id": "Mlynary",
+        "longitude": 19.720367,
+        "latitude": 54.186356
+      },
+      {
+        "name": "Ełk",
+        "id": "Elk",
+        "longitude": 22.362222,
+        "latitude": 53.821389
+      },
+      {
+        "name": "Giżycko",
+        "id": "Gizycko",
+        "longitude": 21.758889,
+        "latitude": 54.04
+      },
+      {
+        "name": "Ryn",
+        "id": "Ryn",
+        "longitude": 21.515047,
+        "latitude": 53.944325
+      },
+      {
+        "name": "Gołdap",
+        "id": "Goldap",
+        "longitude": 22.309444,
+        "latitude": 54.316111
+      },
+      {
+        "name": "Iława",
+        "id": "Ilawa",
+        "longitude": 19.565556,
+        "latitude": 53.596389
+      },
+      {
+        "name": "Kisielice",
+        "id": "Kisielice",
+        "longitude": 19.259444,
+        "latitude": 53.606944
+      },
+      {
+        "name": "Kętrzyn",
+        "id": "Ketrzyn",
+        "longitude": 21.375278,
+        "latitude": 54.076944
+      },
+      {
+        "name": "Korsze",
+        "id": "Korsze",
+        "longitude": 21.141111,
+        "latitude": 54.171389
+      },
+      {
+        "name": "Lidzbark Warmiński",
+        "id": "LidzbarkWarminski",
+        "longitude": 20.581736,
+        "latitude": 54.123692
+      },
+      {
+        "name": "Orneta",
+        "id": "Orneta",
+        "longitude": 20.13,
+        "latitude": 54.115556
+      },
+      {
+        "name": "Mrągowo",
+        "id": "Mragowo",
+        "longitude": 21.299722,
+        "latitude": 53.869167
+      },
+      {
+        "name": "Mikołajki",
+        "id": "Mikolajki",
+        "longitude": 21.571667,
+        "latitude": 53.803611
+      },
+      {
+        "name": "Nidzica",
+        "id": "Nidzica",
+        "longitude": 20.425,
+        "latitude": 53.358333
+      },
+      {
+        "name": "Nowe Miasto Lubawskie",
+        "id": "NoweMiastoLubawskie",
+        "longitude": 19.587778,
+        "latitude": 53.425556
+      },
+      {
+        "name": "Olecko",
+        "id": "Olecko",
+        "longitude": 22.498333,
+        "latitude": 54.036111
+      },
+      {
+        "name": "Olsztyn",
+        "id": "Olsztyn",
+        "longitude": 20.49416,
+        "latitude": 53.77995
+      },
+      {
+        "name": "Biskupiec",
+        "id": "Biskupiec",
+        "longitude": 20.955833,
+        "latitude": 53.863056
+      },
+      {
+        "name": "Ostróda",
+        "id": "Ostroda",
+        "longitude": 19.966111,
+        "latitude": 53.693889
+      },
+      {
+        "name": "Miłomłyn",
+        "id": "Milomlyn",
+        "longitude": 19.838056,
+        "latitude": 53.764167
+      },
+      {
+        "name": "Pisz",
+        "id": "Pisz",
+        "longitude": 21.8125,
+        "latitude": 53.628889
+      },
+      {
+        "name": "Szczytno",
+        "id": "Szczytno",
+        "longitude": 20.985278,
+        "latitude": 53.562778
+      },
+      {
+        "name": "Pasym",
+        "id": "Pasym",
+        "longitude": 20.791944,
+        "latitude": 53.651111
+      },
+      {
+        "name": "Węgorzewo",
+        "id": "Wegorzewo",
+        "longitude": 21.741389,
+        "latitude": 54.213889
+      },
+      {
+        "name": "Górowo Iławeckie",
+        "id": "GorowoIlaweckie",
+        "longitude": 20.495556,
+        "latitude": 54.284444
+      },
+      {
+        "name": "Pasłęk",
+        "id": "Paslek",
+        "longitude": 19.663794,
+        "latitude": 54.061931
+      },
+      {
+        "name": "Morąg",
+        "id": "Morag",
+        "longitude": 19.927847,
+        "latitude": 53.916269
+      },
+      {
+        "name": "Dobre Miasto",
+        "id": "DobreMiasto",
+        "longitude": 20.395833,
+        "latitude": 53.9875
+      },
+      {
+        "name": "Lubawa",
+        "id": "Lubawa",
+        "longitude": 19.751667,
+        "latitude": 53.505
+      },
+      {
+        "name": "Olsztynek",
+        "id": "Olsztynek",
+        "longitude": 20.282778,
+        "latitude": 53.5825
+      },
+      {
+        "name": "Ruciane-Nida",
+        "id": "RucianeNida",
+        "longitude": 21.549944,
+        "latitude": 53.650297
+      },
+      {
+        "name": "Orzysz",
+        "id": "Orzysz",
+        "longitude": 21.947297,
+        "latitude": 53.810264
+      }
+    ],
+    "connections": [
+      {
+        "city_1": "Bialystok",
+        "city_2": "Choroszcz",
+        "road_name": "DW676",
+        "road_type": "W",
+        "distance": 14.6
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Wasilkow",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 11.2
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Suprasl",
+        "road_name": "DW676",
+        "road_type": "W",
+        "distance": 16.0
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Zabludow",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 21.0
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Lapy",
+        "road_name": "DW682",
+        "road_type": "W",
+        "distance": 29.5
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Knyszyn",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 29.2
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Augustow",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 89.7
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "Michalowo",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 35.8
+      },
+      {
+        "city_1": "Choroszcz",
+        "city_2": "Zambrow",
+        "road_name": "S8",
+        "road_type": "S",
+        "distance": 59.3
+      },
+      {
+        "city_1": "Choroszcz",
+        "city_2": "Lomza",
+        "road_name": "S8",
+        "road_type": "S",
+        "distance": 72.4
+      },
+      {
+        "city_1": "Wasilkow",
+        "city_2": "CzarnaBialostocka",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 17.6
+      },
+      {
+        "city_1": "CzarnaBialostocka",
+        "city_2": "Sokolka",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 25.3
+      },
+      {
+        "city_1": "Sokolka",
+        "city_2": "Krynki",
+        "road_name": "DW674",
+        "road_type": "W",
+        "distance": 26.3
+      },
+      {
+        "city_1": "Suprasl",
+        "city_2": "Krynki",
+        "road_name": "DW676",
+        "road_type": "W",
+        "distance": 31.8
+      },
+      {
+        "city_1": "Knyszyn",
+        "city_2": "Monki",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 13.5
+      },
+      {
+        "city_1": "Knyszyn",
+        "city_2": "Sokolka",
+        "road_name": "DW671",
+        "road_type": "W",
+        "distance": 56.4
+      },
+      {
+        "city_1": "Knyszyn",
+        "city_2": "Lapy",
+        "road_name": "DW671",
+        "road_type": "W",
+        "distance": 48.4
+      },
+      {
+        "city_1": "Lapy",
+        "city_2": "WysokieMazowieckie",
+        "road_name": "DW678",
+        "road_type": "W",
+        "distance": 32.3
+      },
+      {
+        "city_1": "Zambrow",
+        "city_2": "WysokieMazowieckie",
+        "road_name": "DK66",
+        "road_type": "K",
+        "distance": 21.2
+      },
+      {
+        "city_1": "Zambrow",
+        "city_2": "Lomza",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 26.7
+      },
+      {
+        "city_1": "Zambrow",
+        "city_2": "Czyzew",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 22.7
+      },
+      {
+        "city_1": "Czyzew",
+        "city_2": "WysokieMazowieckie",
+        "road_name": "Mazowiecka",
+        "road_type": "K",
+        "distance": 19.3
+      },
+      {
+        "city_1": "Czyzew",
+        "city_2": "Ciechanowiec",
+        "road_name": "DW690",
+        "road_type": "W",
+        "distance": 19.8
+      },
+      {
+        "city_1": "WysokieMazowieckie",
+        "city_2": "Bransk",
+        "road_name": "DK66",
+        "road_type": "K",
+        "distance": 32.6
+      },
+      {
+        "city_1": "Lapy",
+        "city_2": "Bransk",
+        "road_name": "DW681",
+        "road_type": "W",
+        "distance": 32.2
+      },
+      {
+        "city_1": "Ciechanowiec",
+        "city_2": "Bransk",
+        "road_name": "DW681",
+        "road_type": "W",
+        "distance": 25.1
+      },
+      {
+        "city_1": "Lapy",
+        "city_2": "Choroszcz",
+        "road_name": "DW682",
+        "road_type": "W",
+        "distance": 27.9
+      },
+      {
+        "city_1": "Bransk",
+        "city_2": "BielskPodlaski",
+        "road_name": "DK66",
+        "road_type": "K",
+        "distance": 24.9
+      },
+      {
+        "city_1": "Zabludow",
+        "city_2": "BielskPodlaski",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 33.4
+      },
+      {
+        "city_1": "Lapy",
+        "city_2": "BielskPodlaski",
+        "road_name": "DW681",
+        "road_type": "W",
+        "distance": 43.2
+      },
+      {
+        "city_1": "BielskPodlaski",
+        "city_2": "Hajnowka",
+        "road_name": "DW689",
+        "road_type": "W",
+        "distance": 27.3
+      },
+      {
+        "city_1": "Zabludow",
+        "city_2": "Hajnowka",
+        "road_name": "DW685",
+        "road_type": "W",
+        "distance": 40.5
+      },
+      {
+        "city_1": "Michalowo",
+        "city_2": "Hajnowka",
+        "road_name": "DW685",
+        "road_type": "W",
+        "distance": 43.5
+      },
+      {
+        "city_1": "Hajnowka",
+        "city_2": "Bialowieza",
+        "road_name": "DW689",
+        "road_type": "W",
+        "distance": 22.0
+      },
+      {
+        "city_1": "Hajnowka",
+        "city_2": "Siemiatycze",
+        "road_name": "DW685",
+        "road_type": "W",
+        "distance": 56.6
+      },
+      {
+        "city_1": "BielskPodlaski",
+        "city_2": "Siemiatycze",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 47.0
+      },
+      {
+        "city_1": "Bransk",
+        "city_2": "Siemiatycze",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 39.7
+      },
+      {
+        "city_1": "Ciechanowiec",
+        "city_2": "Siemiatycze",
+        "road_name": "DW690",
+        "road_type": "W",
+        "distance": 36.3
+      },
+      {
+        "city_1": "Siemiatycze",
+        "city_2": "Drohiczyn",
+        "road_name": "DK62",
+        "road_type": "K",
+        "distance": 15.9
+      },
+      {
+        "city_1": "Ciechanowiec",
+        "city_2": "Drohiczyn",
+        "road_name": "DW690",
+        "road_type": "W",
+        "distance": 36.9
+      },
+      {
+        "city_1": "Bransk",
+        "city_2": "Drohiczyn",
+        "road_name": "DW690",
+        "road_type": "W",
+        "distance": 47.5
+      },
+      {
+        "city_1": "Lomza",
+        "city_2": "Nowogrod",
+        "road_name": "DW645",
+        "road_type": "W",
+        "distance": 14.8
+      },
+      {
+        "city_1": "Zambrow",
+        "city_2": "Nowogrod",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 42.2
+      },
+      {
+        "city_1": "Kolno",
+        "city_2": "Nowogrod",
+        "road_name": "DW648",
+        "road_type": "W",
+        "distance": 26.7
+      },
+      {
+        "city_1": "Kolno",
+        "city_2": "Lomza",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 32.1
+      },
+      {
+        "city_1": "Kolno",
+        "city_2": "Szczuczyn",
+        "road_name": "S61",
+        "road_type": "S",
+        "distance": 35.5
+      },
+      {
+        "city_1": "Lomza",
+        "city_2": "Szczuczyn",
+        "road_name": "S61",
+        "road_type": "S",
+        "distance": 51.0
+      },
+      {
+        "city_1": "Szczuczyn",
+        "city_2": "Grajewo",
+        "road_name": "DW665",
+        "road_type": "W",
+        "distance": 16.6
+      },
+      {
+        "city_1": "Monki",
+        "city_2": "Grajewo",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 36.9
+      },
+      {
+        "city_1": "Augustow",
+        "city_2": "Grajewo",
+        "road_name": "DW665",
+        "road_type": "W",
+        "distance": 43.3
+      },
+      {
+        "city_1": "Lomza",
+        "city_2": "Monki",
+        "road_name": "DK64",
+        "road_type": "K",
+        "distance": 72.5
+      },
+      {
+        "city_1": "Sokolka",
+        "city_2": "DabrowaBialostocka",
+        "road_name": "DW673",
+        "road_type": "W",
+        "distance": 30.8
+      },
+      {
+        "city_1": "Monki",
+        "city_2": "DabrowaBialostocka",
+        "road_name": "DW670",
+        "road_type": "W",
+        "distance": 56.1
+      },
+      {
+        "city_1": "Augustow",
+        "city_2": "Lipsk",
+        "road_name": "DW664",
+        "road_type": "W",
+        "distance": 33.8
+      },
+      {
+        "city_1": "DabrowaBialostocka",
+        "city_2": "Lipsk",
+        "road_name": "DW673",
+        "road_type": "W",
+        "distance": 10.4
+      },
+      {
+        "city_1": "Augustow",
+        "city_2": "Sejny",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 43.4
+      },
+      {
+        "city_1": "Suwalki",
+        "city_2": "Augustow",
+        "road_name": "DW662",
+        "road_type": "W",
+        "distance": 33.3
+      },
+      {
+        "city_1": "Suwalki",
+        "city_2": "Wigry",
+        "road_name": "DW653",
+        "road_type": "W",
+        "distance": 17.2
+      },
+      {
+        "city_1": "Sejny",
+        "city_2": "Wigry",
+        "road_name": "DW653",
+        "road_type": "W",
+        "distance": 19.4
+      },
+      {
+        "city_1": "Szczuczyn",
+        "city_2": "Suwalki",
+        "road_name": "S61",
+        "road_type": "S",
+        "distance": 93.1
+      },
+      {
+        "city_1": "Monki",
+        "city_2": "Kolno",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 72.0
+      },
+      {
+        "city_1": "Krynki",
+        "city_2": "Michalowo",
+        "road_name": "Koscielna",
+        "road_type": "K",
+        "distance": 31.3
+      },
+      {
+        "city_1": "Suprasl",
+        "city_2": "CzarnaBialostocka",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 25.0
+      },
+      {
+        "city_1": "Wasilkow",
+        "city_2": "Suprasl",
+        "road_name": "DW676",
+        "road_type": "W",
+        "distance": 11.5
+      },
+      {
+        "city_1": "Wasilkow",
+        "city_2": "Choroszcz",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 21.3
+      },
+      {
+        "city_1": "Suprasl",
+        "city_2": "Zabludow",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 33.5
+      },
+      {
+        "city_1": "Michalowo",
+        "city_2": "Zabludow",
+        "road_name": "DW686",
+        "road_type": "W",
+        "distance": 20.3
+      },
+      {
+        "city_1": "Bialystok",
+        "city_2": "BielskPodlaski",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 44.7
+      },
+      {
+        "city_1": "Ciechanowiec",
+        "city_2": "WysokieMazowieckie",
+        "road_name": "DK66",
+        "road_type": "K",
+        "distance": 28.9
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "Pasym",
+        "road_name": "DK53",
+        "road_type": "K",
+        "distance": 31.5
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "Olsztynek",
+        "road_name": "S51",
+        "road_type": "S",
+        "distance": 26.8
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "Biskupiec",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 39.5
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "DobreMiasto",
+        "road_name": "DK51",
+        "road_type": "K",
+        "distance": 26.2
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "Morag",
+        "road_name": "DW527",
+        "road_type": "W",
+        "distance": 47.4
+      },
+      {
+        "city_1": "Olsztyn",
+        "city_2": "Ostroda",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 40.1
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "DobreMiasto",
+        "road_name": "DW507",
+        "road_type": "W",
+        "distance": 24.1
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "Morag",
+        "road_name": "DW528",
+        "road_type": "W",
+        "distance": 29.4
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "Paslek",
+        "road_name": "DW513",
+        "road_type": "W",
+        "distance": 35.1
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "LidzbarkWarminski",
+        "road_name": "DW513",
+        "road_type": "W",
+        "distance": 36.6
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "Mlynary",
+        "road_name": "DW509",
+        "road_type": "W",
+        "distance": 33.6
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "Braniewo",
+        "road_name": "DW507",
+        "road_type": "W",
+        "distance": 45.7
+      },
+      {
+        "city_1": "Orneta",
+        "city_2": "GorowoIlaweckie",
+        "road_name": "DW513",
+        "road_type": "W",
+        "distance": 35.6
+      },
+      {
+        "city_1": "Frombork",
+        "city_2": "Braniewo",
+        "road_name": "DW504",
+        "road_type": "W",
+        "distance": 9.6
+      },
+      {
+        "city_1": "Frombork",
+        "city_2": "Mlynary",
+        "road_name": "DW505",
+        "road_type": "W",
+        "distance": 22.2
+      },
+      {
+        "city_1": "Mlynary",
+        "city_2": "Braniewo",
+        "road_name": "DK54",
+        "road_type": "K",
+        "distance": 24.0
+      },
+      {
+        "city_1": "Frombork",
+        "city_2": "Elblag",
+        "road_name": "DW504",
+        "road_type": "W",
+        "distance": 30.8
+      },
+      {
+        "city_1": "Mlynary",
+        "city_2": "Elblag",
+        "road_name": "DW509",
+        "road_type": "W",
+        "distance": 24.1
+      },
+      {
+        "city_1": "Mlynary",
+        "city_2": "Paslek",
+        "road_name": "DW505",
+        "road_type": "W",
+        "distance": 15.3
+      },
+      {
+        "city_1": "Elblag",
+        "city_2": "Paslek",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 24.4
+      },
+      {
+        "city_1": "Elblag",
+        "city_2": "Milomlyn",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 61.1
+      },
+      {
+        "city_1": "Paslek",
+        "city_2": "Milomlyn",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 37.5
+      },
+      {
+        "city_1": "Paslek",
+        "city_2": "Morag",
+        "road_name": "DW527",
+        "road_type": "W",
+        "distance": 26.0
+      },
+      {
+        "city_1": "Ostroda",
+        "city_2": "Morag",
+        "road_name": "DW527",
+        "road_type": "W",
+        "distance": 28.8
+      },
+      {
+        "city_1": "Ostroda",
+        "city_2": "Milomlyn",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 13.7
+      },
+      {
+        "city_1": "Ostroda",
+        "city_2": "Olsztynek",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 31.3
+      },
+      {
+        "city_1": "Szczytno",
+        "city_2": "Olsztynek",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 59.2
+      },
+      {
+        "city_1": "Szczytno",
+        "city_2": "Pasym",
+        "road_name": "DK53",
+        "road_type": "K",
+        "distance": 19.5
+      },
+      {
+        "city_1": "Szczytno",
+        "city_2": "Biskupiec",
+        "road_name": "DK57",
+        "road_type": "K",
+        "distance": 37.4
+      },
+      {
+        "city_1": "DobreMiasto",
+        "city_2": "Biskupiec",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 53.5
+      },
+      {
+        "city_1": "LidzbarkWarminski",
+        "city_2": "Biskupiec",
+        "road_name": "DW593",
+        "road_type": "W",
+        "distance": 46.8
+      },
+      {
+        "city_1": "Bisztynek",
+        "city_2": "Biskupiec",
+        "road_name": "DK57",
+        "road_type": "K",
+        "distance": 29.5
+      },
+      {
+        "city_1": "Bisztynek",
+        "city_2": "Bartoszyce",
+        "road_name": "DK57",
+        "road_type": "K",
+        "distance": 21.0
+      },
+      {
+        "city_1": "LidzbarkWarminski",
+        "city_2": "Bartoszyce",
+        "road_name": "DK51",
+        "road_type": "K",
+        "distance": 23.3
+      },
+      {
+        "city_1": "GorowoIlawieckie",
+        "city_2": "Bartoszyce",
+        "road_name": "DW512",
+        "road_type": "W",
+        "distance": 23.9
+      },
+      {
+        "city_1": "Morag",
+        "city_2": "Milomlyn",
+        "road_name": "DW527",
+        "road_type": "W",
+        "distance": 24.9
+      },
+      {
+        "city_1": "Morag",
+        "city_2": "DobreMiasto",
+        "road_name": "DW530",
+        "road_type": "W",
+        "distance": 40.2
+      },
+      {
+        "city_1": "Ilawa",
+        "city_2": "Milomlyn",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 33.3
+      },
+      {
+        "city_1": "Ostroda",
+        "city_2": "Ilawa",
+        "road_name": "S5",
+        "road_type": "S",
+        "distance": 37.0
+      },
+      {
+        "city_1": "Ostroda",
+        "city_2": "Lubawa",
+        "road_name": "DK15",
+        "road_type": "K",
+        "distance": 30.6
+      },
+      {
+        "city_1": "Lubawa",
+        "city_2": "Ilawa",
+        "road_name": "DW536",
+        "road_type": "W",
+        "distance": 18.2
+      },
+      {
+        "city_1": "Paslek",
+        "city_2": "Ilawa",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 68.7
+      },
+      {
+        "city_1": "Ilawa",
+        "city_2": "Kisielice",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 22.0
+      },
+      {
+        "city_1": "Ilawa",
+        "city_2": "NoweMiastoLubawskie",
+        "road_name": "DW536",
+        "road_type": "W",
+        "distance": 24.6
+      },
+      {
+        "city_1": "Lubawa",
+        "city_2": "NoweMiastoLubawskie",
+        "road_name": "DK15",
+        "road_type": "K",
+        "distance": 16.8
+      },
+      {
+        "city_1": "Kisielice",
+        "city_2": "NoweMiastoLubawskie",
+        "road_name": "DW538",
+        "road_type": "W",
+        "distance": 34.6
+      },
+      {
+        "city_1": "Lubawa",
+        "city_2": "Lidzbark",
+        "road_name": "DW541",
+        "road_type": "W",
+        "distance": 28.5
+      },
+      {
+        "city_1": "Lubawa",
+        "city_2": "Olsztynek",
+        "road_name": "DW537",
+        "road_type": "W",
+        "distance": 45.0
+      },
+      {
+        "city_1": "Lubawa",
+        "city_2": "Dzialdowo",
+        "road_name": "DW538",
+        "road_type": "W",
+        "distance": 45.2
+      },
+      {
+        "city_1": "Lidzbark",
+        "city_2": "NoweMiastoLubawskie",
+        "road_name": "DW544",
+        "road_type": "W",
+        "distance": 27.0
+      },
+      {
+        "city_1": "Lidzbark",
+        "city_2": "Dzialdowo",
+        "road_name": "DW544",
+        "road_type": "W",
+        "distance": 25.3
+      },
+      {
+        "city_1": "Dzialdowo",
+        "city_2": "Nidzica",
+        "road_name": "DW545",
+        "road_type": "W",
+        "distance": 23.5
+      },
+      {
+        "city_1": "Olsztynek",
+        "city_2": "Nidzica",
+        "road_name": "DK7",
+        "road_type": "K",
+        "distance": 31.4
+      },
+      {
+        "city_1": "Szczytno",
+        "city_2": "Nidzica",
+        "road_name": "DW545",
+        "road_type": "W",
+        "distance": 50.5
+      },
+      {
+        "city_1": "LidzbarkWarminski",
+        "city_2": "DobreMiasto",
+        "road_name": "DK51",
+        "road_type": "K",
+        "distance": 22.4
+      },
+      {
+        "city_1": "Bisztynek",
+        "city_2": "Korsze",
+        "road_name": "DW592",
+        "road_type": "W",
+        "distance": 25.8
+      },
+      {
+        "city_1": "Bartoszyce",
+        "city_2": "Korsze",
+        "road_name": "DW592",
+        "road_type": "W",
+        "distance": 28.4
+      },
+      {
+        "city_1": "Korsze",
+        "city_2": "Ketrzyn",
+        "road_name": "DW592",
+        "road_type": "W",
+        "distance": 22.7
+      },
+      {
+        "city_1": "Mragowo",
+        "city_2": "Biskupiec",
+        "road_name": "DK16",
+        "road_type": "W",
+        "distance": 26.3
+      },
+      {
+        "city_1": "Mragowo",
+        "city_2": "Ketrzyn",
+        "road_name": "DW591",
+        "road_type": "W",
+        "distance": 27.3
+      },
+      {
+        "city_1": "Wegorzewo",
+        "city_2": "Ketrzyn",
+        "road_name": "DW650",
+        "road_type": "W",
+        "distance": 35.9
+      },
+      {
+        "city_1": "Gizycko",
+        "city_2": "Ketrzyn",
+        "road_name": "DW592",
+        "road_type": "W",
+        "distance": 30.6
+      },
+      {
+        "city_1": "Ryn",
+        "city_2": "Ketrzyn",
+        "road_name": "AlbinaNowickiego",
+        "road_type": "W",
+        "distance": 21.7
+      },
+      {
+        "city_1": "Ryn",
+        "city_2": "Mragowo",
+        "road_name": "DK59",
+        "road_type": "K",
+        "distance": 22.1
+      },
+      {
+        "city_1": "Ryn",
+        "city_2": "Gizycko",
+        "road_name": "DK59",
+        "road_type": "K",
+        "distance": 20.7
+      },
+      {
+        "city_1": "Mikolajki",
+        "city_2": "Mragowo",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 23.4
+      },
+      {
+        "city_1": "Ryn",
+        "city_2": "Mikolajki",
+        "road_name": "DW642",
+        "road_type": "W",
+        "distance": 17.4
+      },
+      {
+        "city_1": "Biskupiec",
+        "city_2": "Ketrzyn",
+        "road_name": "DW594",
+        "road_type": "W",
+        "distance": 46.6
+      },
+      {
+        "city_1": "Mragowo",
+        "city_2": "Szczytno",
+        "road_name": "DW600",
+        "road_type": "W",
+        "distance": 45.9
+      },
+      {
+        "city_1": "RucianeNida",
+        "city_2": "Szczytno",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 47.6
+      },
+      {
+        "city_1": "Mikolajki",
+        "city_2": "Szczytno",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 56.9
+      },
+      {
+        "city_1": "RucianeNida",
+        "city_2": "Mikolajki",
+        "road_name": "DW609",
+        "road_type": "W",
+        "distance": 23.4
+      },
+      {
+        "city_1": "RucianeNida",
+        "city_2": "Mragowo",
+        "road_name": "DW610",
+        "road_type": "W",
+        "distance": 33.8
+      },
+      {
+        "city_1": "RucianeNida",
+        "city_2": "Pisz",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 19.3
+      },
+      {
+        "city_1": "Orzysz",
+        "city_2": "Pisz",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 24.9
+      },
+      {
+        "city_1": "Orzysz",
+        "city_2": "Mikolajki",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 34.2
+      },
+      {
+        "city_1": "Orzysz",
+        "city_2": "Gizycko",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 30.3
+      },
+      {
+        "city_1": "Wegorzewo",
+        "city_2": "Gizycko",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 25.4
+      },
+      {
+        "city_1": "Wegorzewo",
+        "city_2": "Goldap",
+        "road_name": "DW650",
+        "road_type": "W",
+        "distance": 48.3
+      },
+      {
+        "city_1": "Goldap",
+        "city_2": "Gizycko",
+        "road_name": "DW650",
+        "road_type": "W",
+        "distance": 59.6
+      },
+      {
+        "city_1": "Olecko",
+        "city_2": "Goldap",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 47.1
+      },
+      {
+        "city_1": "Olecko",
+        "city_2": "Gizycko",
+        "road_name": "DW655",
+        "road_type": "W",
+        "distance": 57.7
+      },
+      {
+        "city_1": "Olecko",
+        "city_2": "Elk",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 31.9
+      },
+      {
+        "city_1": "Orzysz",
+        "city_2": "Elk",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 33.0
+      },
+      {
+        "city_1": "Elk",
+        "city_2": "Gizycko",
+        "road_name": "DW656",
+        "road_type": "W",
+        "distance": 54.4
+      },
+      {
+        "city_1": "Goldap",
+        "city_2": "Elk",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 70.6
+      },
+      {
+        "city_1": "Ketrzyn",
+        "city_2": "DobreMiasto",
+        "road_name": "DW593",
+        "road_type": "W",
+        "distance": 75.8
+      },
+      {
+        "city_1": "Pisz",
+        "city_2": "Kolno",
+        "road_name": "DK63",
+        "road_type": "K",
+        "distance": 27.4
+      },
+      {
+        "city_1": "Pisz",
+        "city_2": "Szczuczyn",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 34.5
+      },
+      {
+        "city_1": "Orzysz",
+        "city_2": "Szczuczyn",
+        "road_name": "DK58",
+        "road_type": "K",
+        "distance": 44.9
+      },
+      {
+        "city_1": "Elk",
+        "city_2": "Szczuczyn",
+        "road_name": "S61",
+        "road_type": "S",
+        "distance": 39.6
+      },
+      {
+        "city_1": "Kolno",
+        "city_2": "Szczytno",
+        "road_name": "DK53",
+        "road_type": "K",
+        "distance": 80.6
+      },
+      {
+        "city_1": "Grajewo",
+        "city_2": "Elk",
+        "road_name": "DK65",
+        "road_type": "K",
+        "distance": 27.4
+      },
+      {
+        "city_1": "Elk",
+        "city_2": "Augustow",
+        "road_name": "DK16",
+        "road_type": "K",
+        "distance": 52.3
+      },
+      {
+        "city_1": "Olecko",
+        "city_2": "Augustow",
+        "road_name": "DK8",
+        "road_type": "K",
+        "distance": 48.9
+      },
+      {
+        "city_1": "Olecko",
+        "city_2": "Suwalki",
+        "road_name": "DW653",
+        "road_type": "W",
+        "distance": 36.7
+      },
+      {
+        "city_1": "Suwalki",
+        "city_2": "Goldap",
+        "road_name": "DW652",
+        "road_type": "W",
+        "distance": 57.1
+      },
+      {
+        "city_1": "GorowoIlawieckie",
+        "city_2": "LidzbarkWarminski",
+        "road_name": "DW511",
+        "road_type": "W",
+        "distance": 21.8
+      },
+      {
+        "city_1": "Bisztynek",
+        "city_2": "LidzbarkWarminski",
+        "road_name": "DW513",
+        "road_type": "W",
+        "distance": 24.6
+      }
+    ]
+  }
+  
+
+  

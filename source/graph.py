@@ -15,8 +15,8 @@ class Graph:
             city = City(
                 json_city["name"],
                 json_city["id"],
-                json_city["latitude"],
                 json_city["longitude"],
+                json_city["latitude"],
             )
             self.city_list.append(city)
 
@@ -59,6 +59,7 @@ class Graph:
                                 json_connection["distance"],
                             )
                         )
+
             self.graph_dict.update({city: connection_list})
 
     print("Data loaded")
@@ -76,17 +77,19 @@ class Graph:
         open_set = PriorityQueue()
         open_set.put(0, start)
         track = {}
+
         g_score = {city: float("inf") for city in self.graph_dict}
         g_score[start] = 0
         f_score = {city: float("inf") for city in self.graph_dict}
+
         f_score[start] = finder.h_score(start, end)
         temp_g_score = 0
 
-        open_set_hash = {start}
-
+        closed_set = {start}
         while not open_set.empty():
             current = open_set.get()
-            open_set_hash.remove(current)
+            closed_set.remove(current)
+
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
                 return finder.total_path(final_path, final_roads)
@@ -97,10 +100,10 @@ class Graph:
                     temp_g_score = g_score[current] + connection.distance
                 elif option == "fastest":
                     temp_g_score = g_score[current] + connection.calculate_time()
+
                 if temp_g_score < g_score[connection.destination]:
                     track[connection.destination] = (current, connection)
                     g_score[connection.destination] = temp_g_score
-
                     if option == "shortest":
                         f_score[connection.destination] = temp_g_score + finder.h_score(
                             connection.destination, end
@@ -109,12 +112,11 @@ class Graph:
                         f_score[connection.destination] = temp_g_score + finder.h_score(
                             connection.destination, end, "fastest"
                         )
-
-                    if connection.destination not in open_set_hash:
+                    if connection.destination not in closed_set:
                         open_set.put(
                             f_score[connection.destination],
                             connection.destination,
                         )
-                        open_set_hash.add(connection.destination)
+                        closed_set.add(connection.destination)
 
         return None

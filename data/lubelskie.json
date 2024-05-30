@@ -19,6 +19,12 @@
         "longitude": 23.254722
     },
     {
+        "name" : "Zwierzyniec",
+        "id" : "Zwierzyniec",
+        "latitude" : 50.614444,
+        "longitude": 22.966944
+    },
+    {
         "name" : "Hrubieszów",
         "id" : "Hrubieszow",
         "latitude" : 50.805000,
@@ -73,7 +79,7 @@
         "longitude": 23.553889
     },
     {
-         "name" : "JanowLubelski",
+        "name" : "Janów Lubelski",
         "id" : "JanowLubelski",
         "latitude" : 50.706667,
         "longitude": 22.410556
@@ -125,7 +131,42 @@
       "id" : "Parczew",
       "latitude" : 51.641361,
       "longitude": 22.904056
-
+    },
+    {
+        "name" : "Bychawa",
+        "id" : "Bychawa",
+        "latitude" : 51.015833,
+        "longitude" : 22.532778
+    },
+    {
+        "name" : "Wierzbica",
+        "id" : "Wierzbica",
+        "latitude" : 51.262778,
+        "longitude" : 23.324167
+    },
+    {
+        "name" : "Łaszczów",
+        "id" : "Laszczow",
+        "latitude" : 50.531667,
+        "longitude" : 23.715833
+    },
+    {
+        "name" : "Stoczek Łukowski",
+        "id" : "StoczekLukowski",
+        "latitude" : 51.961389,
+        "longitude" : 21.969444
+    },
+    {
+        "name" : "Piszczac",
+        "id" : "Piszczac",
+        "latitude" : 51.981111,
+        "longitude" : 23.376111
+    },
+    {
+        "name" : "Białopole",
+        "id" : "Bialopole",
+        "latitude" : 50.985000,
+        "longitude" : 23.732778
     }
 ],"connections" : [
     {
@@ -134,6 +175,34 @@
         "road_name": "DK17",
         "road_type": "K",
         "distance": 37.5
+    },
+    {
+        "city_1": "Zwierzyniec",
+        "city_2": "Krasnystaw",
+        "road_name": "DK17",
+        "road_type": "K",
+        "distance": 56.6
+    },
+    {
+        "city_1": "Zwierzyniec",
+        "city_2": "JanowLubelski",
+        "road_name": "DK74",
+        "road_type": "K",
+        "distance": 51.7
+    },
+    {
+        "city_1": "Zwierzyniec",
+        "city_2": "Bilograj",
+        "road_name": "DW858",
+        "road_type": "W",
+        "distance": 21.3
+    },
+    {
+        "city_1": "Zwierzyniec",
+        "city_2": "Zamosc",
+        "road_name": "DW849",
+        "road_type": "W",
+        "distance": 29.2
     },
     {
         "city_1": "TomaszowLubelski",
@@ -364,7 +433,7 @@
         "city_2": "Parczew",
         "road_name": "DW815",
         "road_type": "W",
-        "distance": 36.1
+        "distance": 39.8
     },
     {
         "city_1": "Lubartow",
@@ -435,6 +504,212 @@
         "road_name": "DW816",
         "road_type": "W",
         "distance": 93.8
+    },
+    {
+        "city_1": "Bychawa",
+        "city_2": "Lublin",
+        "road_name": "DW835",
+        "road_type": "W",
+        "distance": 32.4
+    },
+    {
+        "city_1":  "Bychawa",
+        "city_2": "Krasnik",
+        "road_name": "DW834",
+        "road_type": "W",
+        "distance": 33.1
+    },
+    {
+        "city_1": "Bychawa",
+        "city_2": "JanowLubelski",
+        "road_name": "S19",
+        "road_type": "S",
+        "distance": 28.9
+    },
+    {
+        "city_1": "Bychawa",
+        "city_2": "Zwierzyniec",
+        "road_name": "DW848",
+        "road_type": "W",
+        "distance": 67.9
+    },
+    {
+        "city_1": "Bychawa",
+        "city_2": "Krasnystaw",
+        "road_name": "DW842",
+        "road_type": "W",
+        "distance": 59
+    },
+    {
+        "city_1": "Bychawa",
+        "city_2": "Swidnik",
+        "road_name": "DW836",
+        "road_type": "W",
+        "distance": 38.5
+    },
+    {
+        "city_1": "Wierzbica",
+        "city_2": "Wlodawa",
+        "road_name": "DW812",
+        "road_type": "W",
+        "distance": 42.9
+    },
+    {
+        "city_1": "Wierzbica",
+        "city_2": "Chelm",
+        "road_name": "DW841",
+        "road_type": "W",
+        "distance": 21.1
+    },
+    {
+        "city_1": "Wierzbica",
+        "city_2": "Leczna",
+        "road_name": "DW841",
+        "road_type": "W",
+        "distance": 35.2
+    },
+
+
+    {
+        "city_1": "Zaklikow",
+        "city_2": "JanowLubelski",
+        "road_name": "DW857",
+        "road_type": "W",
+        "distance": 21.6
+    },
+    {
+        "city_1": "Zaklikow",
+        "city_2": "Krasnik",
+        "road_name": "DW855",
+        "road_type": "W",
+        "distance": 25
+    },
+    {
+        "city_1": "Nisko",
+        "city_2": "JanowLubelski",
+        "road_name": "S19",
+        "road_type": "S",
+        "distance": 40.6
+    },
+    {
+        "city_1": "Nisko",
+        "city_2": "Bilograj",
+        "road_name": "DK19",
+        "road_type": "K",
+        "distance": 48.1
+    },
+    {
+        "city_1": "Narol",
+        "city_2": "TomaszowLubelski",
+        "road_name": "DW865",
+        "road_type": "W",
+        "distance": 16.7
+    },
+    {
+        "city_1": "Sieniawa",
+        "city_2": "Bilograj",
+        "road_name": "DW835",
+        "road_type": "W",
+        "distance": 43.8
+    },
+    {
+        "city_1": "RudnikNadSanem",
+        "city_2": "JanowLubelski",
+        "road_name": "S19",
+        "road_type": "S",
+        "distance": 42
+    },
+    {
+        "city_1": "Zaklikow",
+        "city_2": "OpoleLubelskie",
+        "road_name": "DW824",
+        "road_type": "W",
+        "distance": 60.7
+    },
+    {
+        "city_1": "Cieszanow",
+        "city_2": "Bilograj",
+        "road_name": "DW863",
+        "road_type": "W",
+        "distance": 55
+    },
+    {
+        "city_1": "Cieszanow",
+        "city_2": "Zamosc",
+        "road_name": "DW849",
+        "road_type": "W",
+        "distance": 88.1
+    },
+
+    {
+        "city_1": "Laszczow",
+        "city_2": "Zamosc",
+        "road_name": "DK74",
+        "road_type": "K",
+        "distance": 50.1
+    },
+    {
+        "city_1": "Laszczow",
+        "city_2": "Hrubieszow",
+        "road_name": "DW850",
+        "road_type": "W",
+        "distance": 38.5
+    },
+    {
+        "city_1": "Laszczow",
+        "city_2": "TomaszowLubelski",
+        "road_name": "DW852",
+        "road_type": "W",
+        "distance": 34.2
+    },
+    {
+        "city_1": "StoczekLukowski",
+        "city_2": "Lukow",
+        "road_name": "DK76",
+        "road_type": "K",
+        "distance": 30
+    },
+    {
+        "city_1": "StoczekLukowski",
+        "city_2": "Ryki",
+        "road_name": "S17",
+        "road_type": "S",
+        "distance": 46
+    },
+    {
+        "city_1": "Piszczac",
+        "city_2": "JanowPodlaski",
+        "road_name": "DW698",
+        "road_type": "W",
+        "distance": 39.1
+    },
+    {
+        "city_1": "Piszczac",
+        "city_2": "BialaPodlaska",
+        "road_name": "Sidorska",
+        "road_type": "P",
+        "distance": 24.4
+    },
+    {
+        "city_1": "Piszczac",
+        "city_2": "Wlodawa",
+        "road_name": "DW816",
+        "road_type": "W",
+        "distance": 56
+    },
+    {
+        "city_1": "Bialopole",
+        "city_2": "Chelm",
+        "road_name": "DW844",
+        "road_type": "W",
+        "distance": 26.5
+    },
+    {
+        "city_1": "Bialopole",
+        "city_2": "Hrubieszow",
+        "road_name": "DW844",
+        "road_type": "W",
+        "distance": 26.8
     }
 ]
 }

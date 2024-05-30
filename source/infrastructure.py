@@ -1,24 +1,27 @@
-from collections.abc import MutableSet
-from functools import total_ordering
 import math
-from typing import Dict, Tuple, final
+from haversine import haversine, Unit
 
-DEGREES_FOR_METER = 111320
-KPH_TO_MPS = 5 / 18
-MAX_VELOCITY = 130
+KPH_TO_MPS = 0.277778
+AVERAGE_VELOCITY = 130
 KILOMETERS_IN_METERS = 1000
 SECONDS_IN_HOURS = 3600
+R = 6371.0
 
 
-def convert_time(time):
-    divided_time = time / 3600
-    hours = int(divided_time)
-    minutes = round((divided_time - hours) * 60)
+def convert_time(seconds):
+    hours = seconds // 3600
+    remaining_seconds = seconds % 3600
+    minutes = remaining_seconds / 60
 
     if minutes >= 60:
         hours += 1
         minutes -= 60
-    return f"{hours}.{minutes}h"
+
+    minutes_decimal = minutes / 60
+    total_time = hours + minutes_decimal
+
+    # Formatuj wynik do dwóch miejsc po przecinku
+    return f"{total_time:.2f} h"
 
 
 class City:
@@ -42,27 +45,25 @@ class Connection:
         self.destination = destination
         self.road_name = road_name
         self.road_type = road_type
-        self.distance = distance
+        self.distance = distance * KILOMETERS_IN_METERS
 
     def calculate_time(self):
-        time = (self.distance * KILOMETERS_IN_METERS) / (
-            self.velocity_dict[self.road_type] * KPH_TO_MPS
-        )
+        time = (self.distance) / ((self.velocity_dict[self.road_type] * KPH_TO_MPS))
         return time
 
 
 class PathFinder:
     def h_score(self, start: City, end: City, option="shortest"):
-        euklides_distance = math.sqrt(
-            (start.longitude - end.longitude) ** 2
-            + (start.latitude - end.latitude) ** 2
+        distance = haversine(
+            (start.latitude, start.longitude),
+            (end.latitude, end.longitude),
+            unit=Unit.METERS,
+            normalize=True,
+            check=True,
         )
-        if option == "shortest":
-            return euklides_distance * DEGREES_FOR_METER
-        elif option == "fastest":
-            return (euklides_distance * DEGREES_FOR_METER) / (MAX_VELOCITY * KPH_TO_MPS)
-
-        return -1
+        if option == "fastest":
+            return distance / (AVERAGE_VELOCITY * KPH_TO_MPS)
+        return distance
 
     def make_path(self, came_from, current):
         total_path = [current]
@@ -76,12 +77,13 @@ class PathFinder:
         return total_path, total_roads  # zopytmalizować
 
     def total_path(self, final_path, final_roads):
-        cities = []
-        connections = []
-        for city in final_path:
-            cities.append(city.id)
-        for connection in final_roads:
-            connections.append(connection.road_name)
+        cities = [city.id for city in final_path]
+        connections = [connection.road_name for connection in final_roads]
         total_time = sum(connection.calculate_time() for connection in final_roads)
-        total_road = sum(connection.distance for connection in final_roads)
-        return f"Cities : {cities}]\nTotal road : {total_road} km\nTotal time : {convert_time(total_time)}\nRoads : {connections}\n"
+        total_distance = sum(connection.distance for connection in final_roads)
+        return (
+            convert_time(total_time),
+            total_distance / KILOMETERS_IN_METERS,
+            connections,
+            cities,
+        )
