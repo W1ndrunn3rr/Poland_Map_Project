@@ -72,10 +72,10 @@ class Graph:
             end = next(city for city in self.city_list if city.id == end_id)
         except StopIteration:
             print("Nie znaleziono miasta")
-            exit()
+            return None
         finder = PathFinder()
         open_set = PriorityQueue()
-        open_set.put(0, start)
+        open_set.put(start, 0, 0)
         track = {}
 
         g_score = {city: float("inf") for city in self.graph_dict}
@@ -94,6 +94,7 @@ class Graph:
                 final_path, final_roads = finder.make_path(track, current)
                 return finder.total_path(final_path, final_roads)
             for connection in self.graph_dict[current]:
+
                 if connection.road_type == "A" and avoid_highways:
                     continue
                 if option == "shortest":
@@ -114,8 +115,9 @@ class Graph:
                         )
                     if connection.destination not in closed_set:
                         open_set.put(
-                            f_score[connection.destination],
                             connection.destination,
+                            f_score[connection.destination],
+                            g_score[connection.destination],
                         )
                         closed_set.add(connection.destination)
 

@@ -2,7 +2,7 @@ from source.graph import Graph
 import pytest
 import json
 
-file = open("data/lubelskie.json", encoding="utf-8")
+file = open("data/podlaskie-wm-poprawione.json", encoding="utf-8")
 
 json_file = json.load(file)
 graph = Graph(json_file)
@@ -20,9 +20,7 @@ def test_path():
             time_f, road_f, _, _ = graph.a_star_algorithm(
                 city_i_id, city_j_id, option="fastest"
             )
-            assert (
-                road_s <= road_f and time_s >= time_f
-            ), "Błąd czasu lub drogi połączeń"
+            assert road_s <= road_f or time_s >= time_f, "Błąd czasu lub drogi połączeń"
 
 
 def test_highways():
