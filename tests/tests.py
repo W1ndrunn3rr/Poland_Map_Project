@@ -3,7 +3,7 @@ import pytest
 import logging
 import json
 
-file = open("data/podlaskie-wm-poprawione.json", encoding="utf-8")
+file = open("data/all_czyste.json", encoding="utf-8")
 
 json_file = json.load(file)
 graph = Graph(json_file)
