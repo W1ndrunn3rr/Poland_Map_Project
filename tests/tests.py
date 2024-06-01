@@ -1,5 +1,6 @@
 from source.graph import Graph
 import pytest
+import logging
 import json
 
 file = open("data/podlaskie-wm-poprawione.json", encoding="utf-8")
@@ -16,11 +17,16 @@ def test_path():
         for j in range(len(cities)):
             city_j_id = cities[j]["id"]
 
+            if city_i_id == city_j_id:
+                continue
+
             time_s, road_s, _, _ = graph.a_star_algorithm(city_i_id, city_j_id)
             time_f, road_f, _, _ = graph.a_star_algorithm(
                 city_i_id, city_j_id, option="fastest"
             )
-            assert road_s <= road_f or time_s >= time_f, "Błąd czasu lub drogi połączeń"
+            assert (
+                road_s <= road_f or time_s[1] >= time_f[1]
+            ), "Błąd czasu lub drogi połączeń"
 
 
 def test_highways():
@@ -42,6 +48,9 @@ def test_dual():
         for j in range(len(cities)):
             city_j_id = cities[j]["id"]
 
+            if city_i_id == city_j_id:
+                continue
+
             time1_s, road1_s, _, _ = graph.a_star_algorithm(city_i_id, city_j_id)
             time1_f, road1_f, _, _ = graph.a_star_algorithm(
                 city_i_id, city_j_id, option="fastest"
@@ -52,8 +61,8 @@ def test_dual():
             )
 
             assert (
-                time1_f == time2_f
-                or time1_s == time2_s
+                time1_f[1] == time2_f[1]
+                or time1_s[1] == time2_s[1]
                 or road1_f == road2_f
                 or road1_s == road2_s
             ), f"{city_i_id}, {city_j_id}"

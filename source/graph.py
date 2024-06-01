@@ -1,4 +1,4 @@
-from os import error, path
+from os import close, error, path
 from typing import Dict
 from source.infrastructure import City, Connection, PathFinder
 from source.priority_queue import PriorityQueue
@@ -71,8 +71,8 @@ class Graph:
             start = next(city for city in self.city_list if city.id == start_id)
             end = next(city for city in self.city_list if city.id == end_id)
         except StopIteration:
-            print("Nie znaleziono miasta")
-            return None
+            return Exception("Brak podanego miasta w bazie")
+
         finder = PathFinder()
         open_set = PriorityQueue()
         open_set.put(start, 0, 0)
@@ -85,16 +85,15 @@ class Graph:
         f_score[start] = finder.h_score(start, end)
         temp_g_score = 0
 
-        closed_set = {start}
+        closed_set = set()
         while not open_set.empty():
             current = open_set.get()
-            closed_set.remove(current)
+            closed_set.add(current)
 
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
                 return finder.total_path(final_path, final_roads)
             for connection in self.graph_dict[current]:
-
                 if connection.road_type == "A" and avoid_highways:
                     continue
                 if option == "shortest":
@@ -119,6 +118,5 @@ class Graph:
                             f_score[connection.destination],
                             g_score[connection.destination],
                         )
-                        closed_set.add(connection.destination)
 
         return None

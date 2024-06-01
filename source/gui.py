@@ -63,7 +63,7 @@ class GUI:
 
         self.find_button.place(x=575, y=250)
 
-        self.root.title("MAPA")
+        self.root.title("Wyszukiwarka połączeń")
         self.root.geometry("800x480")
         self.root.resizable(False, False)
 
@@ -80,19 +80,19 @@ class GUI:
         marker = self.map.set_marker(0, 0, "a")
         path = self.map.set_path([(0, 0), (1, 1)])
         self.map.delete_all_path()
-        time, distance, connections, cities = self.graph.a_star_algorithm(
-            self.city_1_entry.get(),
-            self.city_2_entry.get(),
-            self.h_var.get(),
-            self.road_var.get(),
-        )
-
-        if time is None:
-            return  # raise error
+        try:
+            time, distance, connections, cities = self.graph.a_star_algorithm(
+                self.city_1_entry.get(),
+                self.city_2_entry.get(),
+                self.road_var.get(),
+                self.h_var.get(),
+            )
+        except Exception:
+            return
 
         path_label = Label(
             self.root,
-            text=f"Całkowity czas przejazdu : {time}\nCałkowita droga: {distance} km",
+            text=f"Całkowity czas przejazdu : {time[0]}\nCałkowita droga: {distance} km",
         )
         path_label.place(x=510, y=300)
         self.map.set_position(

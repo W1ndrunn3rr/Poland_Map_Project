@@ -78,7 +78,7 @@ class PathFinder:
         total_time = sum(connection.calculate_time() for connection in final_roads)
         total_distance = sum(connection.distance for connection in final_roads)
         return (
-            convert_time(total_time),
+            (convert_time(total_time), total_time),
             round(total_distance, 2),
             connections,
             cities,
