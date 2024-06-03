@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.font import BOLD
 import tkintermapview
-import math
+from PIL import Image, ImageTk
 
 
 class GUI:
@@ -47,7 +47,7 @@ class GUI:
             text="Najkrótsza trasa",
             variable=self.road_var,
             onvalue="shortest",
-            offvalue="",
+            offvalue="shortest",
         )
         self.shortest_button.place(x=475, y=200)
 
@@ -102,7 +102,20 @@ class GUI:
         for x, y, _ in cities:
             cords.append((x, y))
 
-        self.map.set_path(cords)
+        self.map.set_path(cords, color="grey")
 
         for x, y, name in cities:
-            self.map.set_marker(x, y, name)
+            self.map.set_marker(x, y, name, text_color="black")
+
+        transparent_image = Image.new("RGBA", (1, 1), (255, 0, 0, 0))
+        transparent_photo = ImageTk.PhotoImage(transparent_image)
+
+        for i in range(len(cities) - 1):
+            marker = self.map.set_marker(
+                ((cities[i][0] + cities[i + 1][0]) / 2),
+                ((cities[i][1] + cities[i + 1][1]) / 2),
+                text=connections[i],
+                icon=transparent_photo,
+                text_color="dark magenta",
+            )
+            marker.hide_image(True)

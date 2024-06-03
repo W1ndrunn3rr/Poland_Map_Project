@@ -10,3 +10,4 @@ if __name__ == "__main__":
     graph = Graph(data)
     gui = GUI(graph)
     gui.main_loop()
+    
