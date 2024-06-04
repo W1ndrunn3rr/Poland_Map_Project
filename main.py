@@ -9,7 +9,6 @@ if __name__ == "__main__":
     file = open("data/all_czyste.json", "r", encoding="utf-8")
     data = json.load(file)
     graph = NeighborMatrixGraph(data)
-    print(graph.a_star_algorithm("Warszawa", "Radom"))
 
     gui = GUI(graph)
     gui.main_loop()

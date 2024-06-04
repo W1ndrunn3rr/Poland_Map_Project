@@ -1,5 +1,3 @@
-from os import stat
-from sys import displayhook
 from tkinter import *
 from tkinter import ttk
 from tkinter.font import BOLD

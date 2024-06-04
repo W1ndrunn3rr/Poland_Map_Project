@@ -1,5 +1,3 @@
-from os import close, error, path
-from typing import Dict
 from source.infrastructure import City, Connection, PathFinder
 from source.priority_queue import PriorityQueue
 

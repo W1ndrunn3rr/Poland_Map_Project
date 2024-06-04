@@ -34,7 +34,7 @@ class Connection:
         "K": 90,
         "P": 70,
         "W": 90,
-    }  # do poprawienia przeliczniki
+    }
 
     def __init__(self, destination, road_name, road_type, distance):
         self.destination = destination
