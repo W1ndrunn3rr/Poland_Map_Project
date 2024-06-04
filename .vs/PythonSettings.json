@@ -1,4 +1,7 @@
 {
   "Interpreter": "env\\Scripts\\python.exe",
-  "TestFramework": "Pytest"
+  "TestFramework": "Pytest",
+  "SuppressPackageInstallationPrompt": true,
+  "SuppressConfigureTestFrameworkPrompt": "true",
+  "SuppressEnvironmentCreationPrompt": true
 }

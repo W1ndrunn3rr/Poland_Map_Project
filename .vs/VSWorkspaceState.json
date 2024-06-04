@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\source"
+    "\\data",
+    "\\source",
+    "\\tests"
   ],
-  "SelectedNode": "\\source\\gui.py",
+  "SelectedNode": "\\tests\\__init__.py",
   "PreviewInSolutionExplorer": false
 }

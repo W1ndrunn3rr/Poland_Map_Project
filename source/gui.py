@@ -42,12 +42,13 @@ class GUI:
         self.highways_button.place(x=550, y=150)
 
         self.road_var = StringVar()
+        self.road_var.set("shortest")
         self.shortest_button = Checkbutton(
             self.root,
             text="Najkrótsza trasa",
             variable=self.road_var,
             onvalue="shortest",
-            offvalue="shortest",
+            offvalue="",
         )
         self.shortest_button.place(x=475, y=200)
 
@@ -77,7 +78,6 @@ class GUI:
 
     def find_path(self):
         self.map.delete_all_marker()
-        marker = self.map.set_marker(0, 0, "a")
         path = self.map.set_path([(0, 0), (1, 1)])
         self.map.delete_all_path()
         try:
