@@ -19,6 +19,10 @@ pip install virtualenv
 ```bash
 python -m venv .venv
 ```
+lub 
+```bash
+python3 -m venv .venv
+```
 
 Utworzy to w folderze docelowym wirtualne środowisko Pythona w folderze .venv.
 
@@ -45,10 +49,18 @@ deactivate
 W celu skorzystania z programu należy uruchomić skrypt main.py w utworzonym wcześniej. Aby poprawnie wywołać skrypt z użyciem GUI, należy zastosować następującą składnię :
 
 ```bash
+python main.py
+```
+lub
+```bash
 python3 main.py
 ```
 
 Aby poprawnie wywołać skrypt z użyciem argumentów (bez GUI), należy zastosować następującą składnię :
+```bash
+python main.py town1 town2 [ (LENGTH|TIME) [maxclass [minclass]] ]
+```
+lub
 ```bash
 python3 main.py town1 town2 [ (LENGTH|TIME) [maxclass [minclass]] ]
 ```
