@@ -34,10 +34,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.town1 is None or args.town2 is None:
-        print("Podaj miasta początkowe i końcowe")
-        exit(1)
-
     if args.option != "LENGTH" and args.option != "TIME":
         print("Podaj opcję: LENGTH | TIME")
         exit(1)
@@ -54,6 +50,9 @@ if __name__ == "__main__":
         gui = GUI(graph)
         gui.main_loop()
     else:
+        if args.town1 is None or args.town2 is None:
+            print("Podaj miasta początkowe i końcowe")
+            exit(1)
         print(
             graph.a_star_algorithm(
                 args.town1,
