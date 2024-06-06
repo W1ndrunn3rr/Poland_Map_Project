@@ -3,7 +3,17 @@ from source.priority_queue import PriorityQueue
 
 
 class NeighborMatrixGraph:
+    """
+    @brief Klasa reprezentująca graf sąsiedztwa w postaci macierzy sąsiedztwa.
+    """
+
     def __init__(self, json_file):
+        """
+        @brief Inicjalizuje obiekt klasy NeighborMatrixGraph.
+
+        @args:
+        - json_file: Plik JSON zawierający informacje o miastach i połączeniach.
+        """
         self.city_list = []
         self.city_index = {}
         self.cities_num = len(json_file["cities"])
@@ -57,10 +67,24 @@ class NeighborMatrixGraph:
         end_id,
         option="LENGTH",
         avoid_highways=False,
+        max_class=0,
         min_class=0,
-        max_class=5,
         interface=True,
     ):
+        """
+        @brief Implementuje algorytm A* do znalezienia najkrótszej ścieżki między dwoma miastami.
+        @args:
+        - start_id: Identyfikator początkowego miasta.
+        - end_id: Identyfikator docelowego miasta.
+        - option: Opcja wyboru kryterium (LENGTH lub TIME), domyślnie LENGTH.
+        - avoid_highways: Flaga określająca, czy należy unikać autostrad, domyślnie False.
+        - min_class: Minimalna klasa drogi, domyślnie 0.
+        - max_class: Maksymalna klasa drogi, domyślnie 5.
+        - interface: Flaga określająca, czy zwracać wynik w postaci interfejsu, domyślnie True.
+
+        @returns: Najkrótsza ścieżka między miastami lub informacja o braku ścieżki.
+        """
+
         neighbours = 0
         try:
             start = next(city for city in self.city_list if city.id == start_id)
@@ -87,7 +111,7 @@ class NeighborMatrixGraph:
 
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
-                return_string = ",".join(city.name for city in final_path)
+                return_string = " ".join(city.name for city in final_path)
 
                 total_path = finder.total_path(
                     final_path, final_roads, interface, option

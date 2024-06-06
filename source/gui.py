@@ -3,10 +3,25 @@ from tkinter import ttk
 from tkinter.font import BOLD
 import tkintermapview
 from PIL import Image, ImageTk
+from tkinter import *
+from tkinter import ttk
+from tkinter.font import BOLD
+import tkintermapview
+from PIL import Image, ImageTk
 
 
 class GUI:
+    """
+    @brief Klasa GUI reprezentuje interfejs użytkownika.
+    """
+
     def __init__(self, graph):
+        """
+        @brief Inicjalizuje obiekt GUI.
+
+        @args:
+        - graph (object): Obiekt reprezentujący graf.
+        """
         self.root = Tk()
         self.graph = graph
         map_label = LabelFrame(self.root, width=15, height=5)
@@ -14,6 +29,7 @@ class GUI:
             map_label, width=400, height=400, corner_radius=10
         )
 
+        # Tworzenie etykiety i pól tekstowych
         label = Label(self.root, text="Wyszukaj trasę pomiędzy dwoma miastami")
         label.place(x=490, y=20)
 
@@ -25,6 +41,7 @@ class GUI:
         self.city_2_entry.place(x=500, y=100)
         self.city_2_entry.insert(0, "Miasto docelowe")
 
+        # Tworzenie przycisku i checkboxów
         self.find_button = Button(
             self.root, text="Znajdź trasę", command=self.find_path
         )
@@ -46,7 +63,7 @@ class GUI:
             text="Najkrótsza trasa",
             variable=self.road_var,
             onvalue="LENGTH",
-            offvalue="",
+            offvalue="TIME",
         )
         self.LENGTH_button.place(x=475, y=200)
 
@@ -62,19 +79,35 @@ class GUI:
 
         self.find_button.place(x=575, y=250)
 
+        # Konfiguracja okna głównego
         self.root.title("Wyszukiwarka połączeń")
         self.root.geometry("800x480")
         self.root.resizable(False, False)
 
+        # Ustawienie mapy
         map_label.place(x=40, y=40)
         self.map.set_position(51.9189046, 19.1343786)
         self.map.set_zoom(6)
         self.map.pack()
 
+        self.path_var = StringVar()
+
     def main_loop(self):
+        """
+        @brief Uruchamia główną pętlę interfejsu użytkownika.
+        """
+        self.path_label = Label(
+            self.root,
+            textvar=self.path_var,
+        )
+        self.path_label.place(x=510, y=300)
         self.root.mainloop()
 
     def find_path(self):
+        """
+        @brief Wyszukuje trasę pomiędzy dwoma miastami i aktualizuje interfejs.
+        """
+        self.path_var.set("Brak miasta w bazie / trasa nie istnieje")
         self.map.delete_all_marker()
         path = self.map.set_path([(0, 0), (1, 1)])
         self.map.delete_all_path()
@@ -88,11 +121,9 @@ class GUI:
         except Exception:
             return
 
-        path_label = Label(
-            self.root,
-            text=f"Całkowity czas przejazdu : {time[0]}\nCałkowita droga: {distance} km",
+        self.path_var.set(
+            f"Całkowity czas przejazdu : {time[0]}\nCałkowita droga: {distance} km"
         )
-        path_label.place(x=510, y=300)
         self.map.set_position(
             (cities[0][0] + cities[-1][0]) / 2, (cities[0][1] + cities[-1][1]) / 2
         )

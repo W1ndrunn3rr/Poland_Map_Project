@@ -4,7 +4,7 @@ import pytest
 import logging
 import json
 
-file = open("data/wielkopolskie.json", encoding="utf-8")
+file = open("data/mapa_polski.json", encoding="utf-8")
 
 json_file = json.load(file)
 list_graph = NeighborListGraph(json_file)
@@ -13,7 +13,6 @@ cities = json_file["cities"]
 graphs = [list_graph, matrix_graph]
 
 
-# This is a fixture that provides the common test data
 @pytest.fixture
 def test_data():
     return graphs, cities
@@ -42,10 +41,6 @@ def test_path(test_data, i, j):
         ), "Błąd czasu lub drogi połączeń"
 
 
-import pytest
-
-
-# This test is parametrized to run once for each pair of cities
 @pytest.mark.parametrize(
     "i, j", [(i, j) for i in range(len(cities)) for j in range(len(cities))]
 )

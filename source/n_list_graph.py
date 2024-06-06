@@ -3,12 +3,21 @@ from source.priority_queue import PriorityQueue
 
 
 class NeighborListGraph:
+    """
+    @brief Klasa reprezentująca graf na liście sąsiedztwa.
+    """
+
     def __init__(self, json_file):
+        """
+        @brief Inicjalizuje graf na podstawie pliku JSON.
+        @args:
+        - json_file: Plik JSON zawierający informacje o miastach i połączeniach.
+        """
+
         self.city_list = []
         self.graph_dict = {}
 
         for json_city in json_file["cities"]:
-
             city = City(
                 json_city["name"],
                 json_city["id"],
@@ -65,10 +74,26 @@ class NeighborListGraph:
         end_id,
         option="LENGTH",
         avoid_highways=False,
+        max_class=0,
         min_class=0,
-        max_class=5,
         interface=True,
     ):
+        """
+
+        @brief Implementuje algorytm A* w celu znalezienia najkrótszej/najszybszej  ścieżki między dwoma miastami.
+
+        @args:
+        - start_id: Identyfikator miasta początkowego.
+        - end_id: Identyfikator miasta końcowego.
+        - option: Opcja wyboru kryterium (LENGTH - długość, TIME - czas).
+        - avoid_highways: Flaga określająca, czy należy unikać autostrad.
+        - min_class: Minimalna klasa drogi.
+        - max_class: Maksymalna klasa drogi.
+        - interface: Flaga określająca, czy zwraca interfejs użytkownika.
+
+        @returns Znaleziona najkrótsza ścieżka między miastami lub informacja o braku ścieżki w odpowiednim formacie.
+        """
+
         neighbours = 0
         try:
             start = next(city for city in self.city_list if city.id == start_id)
@@ -96,7 +121,7 @@ class NeighborListGraph:
 
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
-                return_string = ",".join(city.name for city in final_path)
+                return_string = " ".join(city.name for city in final_path)
 
                 total_path = finder.total_path(
                     final_path, final_roads, interface, option
