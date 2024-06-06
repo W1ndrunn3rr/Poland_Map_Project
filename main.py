@@ -21,7 +21,7 @@ if __name__ == "__main__":
         "option",
         type=str,
         nargs="?",
-        default=None,
+        default="LENGTH",
         help="Opcja wyboru: LENGTH | TIME",
     )
 
