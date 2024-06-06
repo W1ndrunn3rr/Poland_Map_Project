@@ -8,7 +8,7 @@ Program realizuje obsługę interfejsową - prosty program napisany za pomocą m
 A także realizuje obsługę bez interfejsu w terminalu.
 
 ## WYMAGANIA
-Projekt wymaga Pythona w wersji 3.9 lub wyższej oraz mieć poprawnie skonfigurowany instalator paczek Pythona - pip oraz virtual venv, który jest domyślnie dołączany do Pythona. Jeśli jednak by go nie było należy go zainstalować : 
+Projekt wymaga Pythona w wersji 3.9 lub wyższej oraz należy mieć poprawnie skonfigurowany instalator paczek Pythona - pip oraz virtual venv, który jest domyślnie dołączany do Pythona. Jeśli jednak by go nie było należy go zainstalować : 
 ```bash
 pip install virtualenv
 ```
@@ -42,7 +42,7 @@ deactivate
 
 ## URUCHOMIENIE PROGRAMU
 
-W celu skorzystania z programu należy uruchomić skrypt main.py. Aby poprawnie wywołać skrypt z użyciem GUI, należy zastosować następującą składnię :
+W celu skorzystania z programu należy uruchomić skrypt main.py w utworzonym wcześniej. Aby poprawnie wywołać skrypt z użyciem GUI, należy zastosować następującą składnię :
 
 ```bash
 python3 main.py
@@ -53,27 +53,27 @@ Aby poprawnie wywołać skrypt z użyciem argumentów (bez GUI), należy zastoso
 python3 main.py town1 town2 [ (LENGTH|TIME) [maxclass [minclass]] ]
 ```
 
-*town1 - identyfikator miasta 1 (np. name = Nowy Sącz -> id = NowySacz)
+-town1 - identyfikator miasta 1 (np. name = Nowy Sącz -> id = NowySacz)
 
-*town2 - identfikator miasta 2 ( wymagany przy podaniu town1 )
+-town2 - identfikator miasta 2 ( wymagany przy podaniu town1 )
 
-*(LENGTH|TIME) - wybór trybu algorytmu ;
+-(LENGTH|TIME) - wybór trybu algorytmu ;
 LENGTH - algorytm optymalizuje długość drogi ; 
 TIME - algorytm optymalizuje czas przejazdu drogi
 
-*maxclass - maksymalna klasa drogi jaką algorytm bierze pod uwagę  (liczba nieujemna)
+-maxclass - maksymalna klasa drogi jaką algorytm bierze pod uwagę  (liczba nieujemna)
 
-*minclass - minimalna klasa drogi jaką algorytm bierze pod uwagę (liczba nieujemna)
+-minclass - minimalna klasa drogi jaką algorytm bierze pod uwagę (liczba nieujemna)
 
 
 Oznaczenia klas dróg:
 
-*5 - autostrada
-*4 - droga szybkiego ruchu
-*3 - droga krajowa
-*2 - droga powiatowa
-*1 - połączenie promowe
-*0 - dowolna
+-5 - autostrada
+-4 - droga szybkiego ruchu
+-3 - droga krajowa
+-2 - droga powiatowa
+-1 - połączenie promowe
+-0 - dowolna
 
 W takim trybie w terminalu pojawi się wynik w postaci :
 
