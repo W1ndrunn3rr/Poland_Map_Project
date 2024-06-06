@@ -1,7 +1,7 @@
 # SPECYFIKACJA PROGRAMU
 
 ## OPIS PROGRAMU
-Program służy do wyszukiwania najkrótszych lub najszybszych połączeń drogowych pomiędzy polskimi miastami, za pomocą algorytmu A* z funkcją heurystyczną haversine. Wyszukiwanie odbywa się w zakresie danych znajdujących się w folderze /data w pliku mapa_polski.json, ale jest możliwe także uruchomienie aplikacji, jeżeli plik jest w formacie JSON oraz posiada dokładnie taki sam układ.
+Program służy do wyszukiwania najkrótszych lub najszybszych połączeń drogowych pomiędzy polskimi miastami, za pomocą algorytmu A* z funkcją heurystyczną haversine na grafie osadzonym na liście sąsiedztwa lub macierzy sąsiedztwa. Wyszukiwanie odbywa się w zakresie danych znajdujących się w folderze /data w pliku mapa_polski.json, ale jest możliwe także uruchomienie aplikacji, jeżeli plik jest w formacie JSON oraz posiada dokładnie taki sam układ.
 
 Program realizuje obsługę interfejsową - prosty program napisany za pomocą modułu tkinter oraz modułu tkintermapview https://github.com/TomSchimansky/TkinterMapView.
 
