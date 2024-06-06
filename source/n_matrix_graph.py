@@ -51,16 +51,22 @@ class NeighborMatrixGraph:
                 distance,
             )
 
-        print("Data loaded")
-
     def a_star_algorithm(
-        self, start_id, end_id, option="shortest", avoid_highways=False
+        self,
+        start_id,
+        end_id,
+        option="LENGTH",
+        avoid_highways=False,
+        min_class=0,
+        max_class=5,
+        interface=True,
     ):
+        neighbours = 0
         try:
             start = next(city for city in self.city_list if city.id == start_id)
             end = next(city for city in self.city_list if city.id == end_id)
         except StopIteration:
-            return Exception("Brak podanego miasta w bazie")
+            return "NOTFOUND" + " " + str(neighbours)
 
         finder = PathFinder()
         open_set = PriorityQueue()
@@ -81,25 +87,42 @@ class NeighborMatrixGraph:
 
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
-                return finder.total_path(final_path, final_roads)
+                return_string = ",".join(city.name for city in final_path)
+
+                total_path = finder.total_path(
+                    final_path, final_roads, interface, option
+                )
+
+                if not interface:
+                    return_string += " " + str(total_path) + " " + str(neighbours)
+
+                return total_path if interface else return_string
+
             for connection in self.n_matrix[self.city_index[current.id]]:
-                if connection == 0 or connection.road_type == "A" and avoid_highways:
+                neighbours = neighbours + 1
+                if (connection == 0) or (
+                    connection.road_type == "A" and avoid_highways
+                ):
                     continue
-                if option == "shortest":
+                if (connection.road_class() < min_class and min_class != 0) or (
+                    connection.road_class() > max_class and max_class != 0
+                ):
+                    continue
+                if option == "LENGTH":
                     temp_g_score = g_score[current] + connection.distance
-                elif option == "fastest":
+                elif option == "TIME":
                     temp_g_score = g_score[current] + connection.calculate_time()
 
                 if temp_g_score < g_score[connection.destination]:
                     track[connection.destination] = (current, connection)
                     g_score[connection.destination] = temp_g_score
-                    if option == "shortest":
+                    if option == "LENGTH":
                         f_score[connection.destination] = temp_g_score + finder.h_score(
                             connection.destination, end
                         )
-                    elif option == "fastest":
+                    elif option == "TIME":
                         f_score[connection.destination] = temp_g_score + finder.h_score(
-                            connection.destination, end, "fastest"
+                            connection.destination, end, "TIME"
                         )
                     if connection.destination not in closed_set:
                         open_set.put(
@@ -108,4 +131,4 @@ class NeighborMatrixGraph:
                             g_score[connection.destination],
                         )
 
-        return None
+        return "NOTFOUND" + " " + str(neighbours)

@@ -40,25 +40,25 @@ class GUI:
         self.highways_button.place(x=550, y=150)
 
         self.road_var = StringVar()
-        self.road_var.set("shortest")
-        self.shortest_button = Checkbutton(
+        self.road_var.set("LENGTH")
+        self.LENGTH_button = Checkbutton(
             self.root,
             text="Najkrótsza trasa",
             variable=self.road_var,
-            onvalue="shortest",
+            onvalue="LENGTH",
             offvalue="",
         )
-        self.shortest_button.place(x=475, y=200)
+        self.LENGTH_button.place(x=475, y=200)
 
-        self.fastest_button = Checkbutton(
+        self.TIME_button = Checkbutton(
             self.root,
             text="Najszybsza trasa",
             variable=self.road_var,
-            onvalue="fastest",
-            offvalue="",
+            onvalue="TIME",
+            offvalue="LENGTH",
         )
 
-        self.fastest_button.place(x=650, y=200)
+        self.TIME_button.place(x=650, y=200)
 
         self.find_button.place(x=575, y=250)
 
