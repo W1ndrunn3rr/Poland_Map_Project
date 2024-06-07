@@ -95,11 +95,18 @@ class NeighborListGraph:
         """
 
         neighbours = 0
-        try:
-            start = next(city for city in self.city_list if city.id == start_id)
-            end = next(city for city in self.city_list if city.id == end_id)
-        except StopIteration:
-            return "NOTFOUND" + " " + str(neighbours)
+        if not interface:
+            try:
+                start = next(city for city in self.city_list if city.id == start_id)
+                end = next(city for city in self.city_list if city.id == end_id)  
+            except StopIteration:
+                return "NOTFOUND" + " " + str(neighbours)
+        elif interface:
+            try:
+                start = next(city for city in self.city_list if city.name == start_id)
+                end = next(city for city in self.city_list if city.name == end_id)  
+            except StopIteration:
+                return "NOTFOUND" + " " + str(neighbours)
 
         finder = PathFinder()
         open_set = PriorityQueue()
@@ -121,7 +128,7 @@ class NeighborListGraph:
 
             if current == end:
                 final_path, final_roads = finder.make_path(track, current)
-                return_string = " ".join(city.name for city in final_path)
+                return_string = " ".join(city.id for city in final_path)
 
                 total_path = finder.total_path(
                     final_path, final_roads, interface, option
@@ -133,7 +140,6 @@ class NeighborListGraph:
                 return total_path if interface else return_string
 
             for connection in self.graph_dict[current]:
-                neighbours = neighbours + 1
                 if connection == 0 or connection.road_type == "A" and avoid_highways:
                     continue
                 if (
@@ -160,6 +166,7 @@ class NeighborListGraph:
                             connection.destination, end, "TIME"
                         )
                     if connection.destination not in closed_set:
+                        neighbours = neighbours + 1
                         open_set.put(
                             connection.destination,
                             f_score[connection.destination],
@@ -167,3 +174,10 @@ class NeighborListGraph:
                         )
 
         return "NOTFOUND" + " " + str(neighbours)
+    
+    
+    def get_cities(self):
+        """
+        @brief Zwraca listę miast w grafie.
+        """
+        return self.city_list

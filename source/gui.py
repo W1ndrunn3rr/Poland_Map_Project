@@ -1,13 +1,9 @@
 from tkinter import *
 from tkinter import ttk
-from tkinter.font import BOLD
 import tkintermapview
 from PIL import Image, ImageTk
-from tkinter import *
-from tkinter import ttk
-from tkinter.font import BOLD
-import tkintermapview
-from PIL import Image, ImageTk
+from unidecode import unidecode
+
 
 
 class GUI:
@@ -22,6 +18,7 @@ class GUI:
         @args:
         - graph (object): Obiekt reprezentujący graf.
         """
+        self.city_list = graph.get_cities()
         self.root = Tk()
         self.graph = graph
         map_label = LabelFrame(self.root, width=15, height=5)
@@ -40,8 +37,7 @@ class GUI:
         self.city_2_entry = Entry(self.root, width=30)
         self.city_2_entry.place(x=500, y=100)
         self.city_2_entry.insert(0, "Miasto docelowe")
-
-        # Tworzenie przycisku i checkboxów
+        
         self.find_button = Button(
             self.root, text="Znajdź trasę", command=self.find_path
         )
@@ -96,12 +92,15 @@ class GUI:
         """
         @brief Uruchamia główną pętlę interfejsu użytkownika.
         """
+        self.city_1_entry.bind('<Tab>', self.update_list_1)
+        self.city_2_entry.bind('<Tab>', self.update_list_2)
         self.path_label = Label(
             self.root,
             textvar=self.path_var,
         )
-        self.path_label.place(x=510, y=300)
+        self.path_label.place(x=500, y=300)
         self.root.mainloop()
+        
 
     def find_path(self):
         """
@@ -113,8 +112,8 @@ class GUI:
         self.map.delete_all_path()
         try:
             time, distance, connections, cities = self.graph.a_star_algorithm(
-                self.city_1_entry.get(),
-                self.city_2_entry.get(),
+                self.city_1_entry.get().strip(),
+                self.city_2_entry.get().strip(),
                 self.road_var.get(),
                 self.h_var.get(),
             )
@@ -148,3 +147,33 @@ class GUI:
                 text_color="dark magenta",
             )
             marker.hide_image(True)
+
+    # Kod źródłowy, na którym się wzorowałem : https://www.geeksforgeeks.org/autocmplete-combobox-in-python-tkinter/
+    def update_list_1(self,event):
+        """
+        @brief Aktualizuje listę miast w polu tekstowym 1.
+        """
+        current_text = unidecode(self.city_1_entry.get().lower())
+
+        matching_cities = [city.name for city in self.city_list if unidecode(city.name.lower()).startswith(current_text)]
+
+
+        if matching_cities:
+            self.city_1_entry.delete(0, 'end')
+            self.city_1_entry.insert(0, matching_cities[0])
+            
+    def update_list_2(self,event):
+        """
+        @brief Aktualizuje listę miast w polu tekstowym 2.
+        """
+        current_text = unidecode(self.city_2_entry.get().lower())
+        
+        matching_cities = [city.name for city in self.city_list if unidecode(city.name.lower()).startswith(current_text)]
+
+
+        if matching_cities:
+            self.city_2_entry.delete(0, 'end')
+            self.city_2_entry.insert(0, matching_cities[0])
+
+
+        return "break"

@@ -56,6 +56,8 @@ lub
 python3 main.py
 ```
 
+W tym wariancie wyświetlania użytkownik ma do dyspozycji dwa pola tekstowe do wpisywania pełnych nazw miast. W momencie wpisania chociaż jednej litery, użytkownik może nacisnąć klawisz TAB, aby nastąpiło autouzupełnienie miejscowością o podanej składni (uzupełnienie następuje raz). Można także pisać nazwy bez polskich znaków i z małych bądź dużych liter np. JANÓW (TAB) -> Janów Lubelski, zielona (TAB) -> Zielona Góra. Użytkownik może także wybrać 2 warianty drogi : najkrótsza i najszybsza oraz unikać połączeń autostradowych. Po naciśnięciu przycisku "Znajdź trasę", pojawi się komunikat o czasie przejazdu oraz drodze do pokonania. W momencie podania błednej nazwy chociaż jednego miasta lub braku połączeń, wyświetli się komunikat "Brak miasta w bazie / trasa nie istnieje"/
+
 Aby poprawnie wywołać skrypt z użyciem argumentów (bez GUI), należy zastosować następującą składnię :
 ```bash
 python main.py town1 town2 [ (LENGTH|TIME) [maxclass [minclass]] ]
@@ -98,6 +100,14 @@ Jeżeli połączenie nie zostanie znalezionie, albo miasta nie będzie w bazie t
 ```
 NOTFOUND ilość_odwiedzonych_węzłów 
 ```
+
+Uruchomienie komendy :
+```bash
+python3 main.py -h
+```
+
+Pokazuje jak użyć argumentów
+
 
 Autor 
 Jakub Gilewicz 275409

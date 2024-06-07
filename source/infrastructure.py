@@ -1,10 +1,20 @@
 import math
 from haversine import haversine, Unit
 
-AVERAGE_VELOCITY = 100
 
 
-def convert_time(hours, interface=True):
+MAX_VELOCITY = 130
+
+# https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+def convert_seconds(seconds):
+    # Oblicz godziny, minuty i sekundy
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+
+    # Zwróć czas w formacie hh:mm:ss.sss
+    return f"{int(hours):02}:{int(minutes):02}:{seconds:06.3f}"
+
+def convert_time(hours):
     """
     @brief Konwertuje czas z formatu liczbowego na format tekstowy.
 
@@ -18,8 +28,6 @@ def convert_time(hours, interface=True):
     """
     decimal_hours = int(hours)
     minutes = int((hours - decimal_hours) * 60)
-    if not interface:
-        return f"{decimal_hours}.{minutes}"
     if decimal_hours == 0:
         if minutes < 10:
             return f"0.0{minutes} h"
@@ -59,10 +67,10 @@ class Connection:
         "S": 110,
         "K": 90,
         "P": 70,
-        "W": 90,
+        "W": 70,
     }
 
-    types_dict = {"A": 5, "S": 4, "K": 3, "W": 3, "P": 2}
+    types_dict = {"A": 5, "S": 4, "K": 3, "W": 2, "P": 2}
 
     def __init__(self, destination, road_name, road_type, distance):
         """
@@ -126,7 +134,7 @@ class PathFinder:
         )
 
         if option == "TIME":
-            return distance / (AVERAGE_VELOCITY)
+            return distance / (MAX_VELOCITY)
         return distance
 
     def make_path(self, came_from, current):
@@ -171,6 +179,11 @@ class PathFinder:
         connections = [connection.road_name for connection in final_roads]
         total_time = sum(connection.calculate_time() for connection in final_roads)
         total_distance = sum(connection.distance for connection in final_roads)
+        
+        time_in_seconds = sum((connection.distance * 1000 / (connection.velocity_dict[connection.road_type] * 5/18)) for connection in final_roads)
+        
+        
+        
         return (
             (
                 (convert_time(total_time), total_time),
@@ -180,7 +193,7 @@ class PathFinder:
             )
             if interface == True
             else (
-                convert_time(total_time, interface)
+                convert_seconds(time_in_seconds)
                 if option == "TIME"
                 else total_distance
             )
